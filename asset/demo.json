@@ -1,0 +1,55 @@
+{
+  "info":{
+    "age":"23岁",
+    "position":"深圳",
+    "status":"在职"
+  },
+  "experience":[
+    {
+      "img":"/asset/img/e_js.svg",
+      "company":"软通动力（华为事业部）",
+      "duration":"2018年5月~至今",
+      "post":"<高级主管工程师>",
+      "description":"\"TypeScript vue java node\"",
+      "details":["负责ide各个组件的实现","负责bug的修复，以及相关代码的优化","高度组件化、模块化思维，拥有各平台调试能力","同期学习java,深入学习CSS高级进阶"]
+    },
+    {
+      "img":"/asset/img/e_js.svg",
+      "company":"大河网络传媒集团有限公司",
+      "duration":"2017年5月~2018年五月",
+      "post":"<web前端开发工程师>",
+      "description":"\"sass gulp vue avalon react 原生JS以及若干类库\"",
+      "details":["负责前端页面的具体功能实现","负责新技术的调研","高度组件化、模块化思维，拥有各平台调试能力","同期学习node.js,体会前后端开发的区别"]
+    },
+    {
+      "img":"/asset/img/e_html.svg",
+      "company":"中山市众创云信息科技有限公司",
+      "duration":"2016年9月~2017年4月",
+      "post":"<web前端开发工程师>",
+      "description":"\"sass gulp vue avalon 微信小程序 原生JS以及若干类库\"",
+      "details":["负责前端页面的具体功能实现","负责新技术的调研","高度组件化、模块化思维，拥有各平台调试能力","同期学习ES6及vue,react,体会JavaScript设计模式"]
+    }
+  ],
+  "demo":[
+    {
+      "name":"河南日报融媒体应用平台（中央厨房）",
+      "description":"报业人写稿、发稿、指挥的内部人员使用的应用平台，平台有40多个大功能模块，参与部分模块开发",
+      "src":"https://rm.dahe.cn/login"
+    },
+    {
+      "name":"web app 高仿饿了么",
+      "description":"毕业设计，vue2.0单页面应用",
+      "src":"/demo/elm/index.html"
+    },
+    {
+      "name":"中山市众创云信息科技有限公司",
+      "description":"第一家工作公司的网站，自己一个人独立完成的",
+      "src":"/demo/tgc/index.html"
+    },
+    {
+      "name":"海泉集团jQuery",
+      "description":"公司的一个项目",
+      "src":"/demo/hqjt/index.html"
+    }
+  ]
+}
