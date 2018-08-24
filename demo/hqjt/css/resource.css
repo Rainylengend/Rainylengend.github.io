@@ -1,0 +1,64 @@
+.banner{
+    background: url(../img/hqfc/banner1.jpg) no-repeat center center;
+}
+.resource-main{
+    width:1178px;
+    margin:20px auto;
+    background: #fff;
+}
+.resource-main .tabs li{
+    float: left;
+    width:392px;
+    color: #333;
+    text-align: center;
+    line-height:60px;
+    border-right:2px solid #f7f8fa;
+    cursor: pointer;
+}
+.resource-main .tabs li.active{
+    color: #fff;
+    background: #e89724;
+}
+.view{
+    border-top:2px solid #f7f8fa;
+    padding:50px;
+}
+.view>div{
+    display: none;
+}
+.view>div.active{
+    display: block;
+}
+.view h3{
+    line-height:60px;
+    font-weight:normal;
+    color: #e89724;
+    border:2px solid #f7f8fa;
+    border-left:0;
+    border-right:0;
+    padding:0 80px;
+}
+.view .content{
+    padding:16px 80px;
+}
+.view .content dt{
+    color: #666;
+    margin:10px 0;
+}
+.view .content dd{
+    padding-left:32px;
+}
+.view .content .address{
+    color: #e89724;
+    padding:10px 0 0 32px;
+}
+.zplc > div{
+    width:500px;
+    height:100px;
+    font-size:22px;
+    color: #fff;
+    text-align: center;
+    line-height:80px;
+    background: url(../img/resource/rect.gif);
+    margin:0 auto 60px;
+}

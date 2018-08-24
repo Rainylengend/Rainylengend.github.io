@@ -1,0 +1,155 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;font-weight:normal;}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outline:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}a img {border:none;}
+body{
+	font-family: "Microsoft YaHei";
+}
+a{
+	text-decoration: none;
+}
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+img{
+	display: block;
+}
+.left{
+	float:left
+}
+.right{
+	float: right;
+}
+.marBtw{
+	position: absolute;
+	top:0;right:0;left:0;bottom: 0;
+	margin:auto;
+}
+.header,.footer,.common-title-main{
+	width:1200px;
+	margin:0 auto;
+}
+.marginNo{
+	margin: 0 !important;
+}
+/*header*/
+/* header */
+.header-bg{
+	width:100%;
+	height:120px;
+	background: #000;
+}
+.header{
+	height:100%;
+}
+.header h1{
+	width:72px;
+	height:100%;
+	margin-left:44px;
+	float: left;
+	background: url("../img/logo.png") no-repeat center center ;
+}
+.header ul{
+	margin-right:33px;
+}
+.header li{
+	float: left;
+	position: relative;
+}
+.header .active{
+	background: #686b71;
+}
+.header .firstList{
+	display: inline-block;
+	line-height:120px;
+	padding:0 33px;
+	color: #fff;
+	font-size:18px;
+}
+.header li a:hover{
+	background-color: #686b71;
+}
+.nav li div{
+	position: absolute;
+	z-index: 1000;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);
+	background: rgba(0,0,0,.6);
+	top:120px;
+	overflow: hidden;
+	width:100%;
+	text-align: center;
+	display: none;
+}
+.nav li div a{
+	font-size:18px;
+	color: #fff;
+	line-height: 44px;
+	display: block;
+}
+/*header end*/
+/* title */
+.common-title{
+	height:61px;
+	border-bottom:1px solid #ddd;
+}
+.common-title h3{
+	width:120px;
+	line-height:59px;
+	font-size:18px;
+	color: #010101;
+	text-align: center;
+	border-bottom: 2px solid #000;
+}
+.common-title-main{
+	overflow: hidden;
+}
+.common-title-main .right a{
+	display: block;
+	float: left;
+	width:100px;
+	height:44px;
+	line-height:44px;
+	text-align: center;
+	margin:16px 0 0 6px;
+	background: #1b1b1b;
+	color: #fff;
+}
+.common-title-main .right .active{
+	background: #434343;
+}
+/* footer */
+.footer-bg{
+	background: #000;
+}
+.footer{
+	height:94px;
+	padding:29px 0 0 32px;
+	color: #fff;
+}
+.footer-l p{
+	font-size:18px;
+	margin-bottom:12px;
+}
+.footer-l span{
+	font-size:9px;
+	font-family: Arial;
+}
+.footer-r{
+	margin-right:86px;
+	font-size:12px;
+	line-height:18px;
+}
+.footer-r p{
+	margin-bottom:12px;
+}
+.footer-r span{
+	color: #888;
+	width:100%;
+	display: inline-block;
+	text-align: center;
+	text-indent: 36px;
+}
+.editable{
+	line-height:24px;
+	font-size:16px;
+	color: #5a5a5a;
+}

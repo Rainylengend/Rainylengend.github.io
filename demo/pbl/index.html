@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="x-ua-compatible" content="IE=Edge">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>瀑布流</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        ul{
+            list-style: none;
+        }
+        img {
+            width:100%;
+            display: block;
+        }
+        #box{
+            position: relative;
+            overflow: hidden;
+        }
+        #box ul {
+            width:16.66666666667%;
+            padding:0 10px;
+            float: left;
+        }
+        #box ul li{
+            margin-bottom:20px;
+            box-shadow:0 0 30px #369;
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+    <ul>
+        <li><img src="./img/P_000.jpg" alt=""></li>
+        <li><img src="./img/P_005.jpg" alt=""></li>
+    </ul>
+    <ul>
+        <li><img src="./img/P_001.jpg" alt=""></li>
+        <li><img src="./img/P_006.jpg" alt=""></li>
+    </ul>
+    <ul>
+        <li><img src="./img/P_002.jpg" alt=""></li>
+        <li><img src="./img/P_007.jpg" alt=""></li>
+    </ul>
+    <ul>
+        <li><img src="./img/P_003.jpg" alt=""></li>
+        <li><img src="./img/P_008.jpg" alt=""></li>
+    </ul>
+    <ul>
+        <li><img src="./img/P_004.jpg" alt=""></li>
+        <li><img src="./img/P_009.jpg" alt=""></li>
+    </ul>
+    <ul>
+        <li><img src="./img/P_004.jpg" alt=""></li>
+        <li><img src="./img/P_009.jpg" alt=""></li>
+    </ul>
+</div>
+</body>
+<script>
+    var waterfall = {
+        //id为瀑布流的容器，data为一个对象格式{img:[]}img数组为路径
+        init: function (id,data) {
+            this.aUl=document.getElementById(id).getElementsByTagName('ul');
+            if(typeof data === 'object'&& !(data instanceof Array)){
+                this.data=data;
+            }else{
+                throw 'data必须为对象{img:[]}'
+            }
+            this.col();
+            //初始化让图片铺满屏幕
+            this.timer=setInterval(function(){
+                for(var i=0;i<waterfall.aUl.length;i++){
+                    if(waterfall.aUl[i].offsetHeight>=document.documentElement.clientHeight)clearInterval(waterfall.timer);
+                }
+                waterfall.watch();
+            },100)
+        },
+        watch:function(){
+            var aUl=this.aUl,
+            //检测屏幕的底部距离距离页面顶,端的距离
+                    screenMid=document.documentElement.clientHeight+(document.documentElement.scrollTop||document.body.scrollTop||window.pageYOffset),
+                    li;
+            for(var i=0;i<aUl.length;i++){
+                //如果最短的ul的高度等于屏幕底部到页面顶部距离则为此ul添加一个图片
+                if(aUl[i].offsetHeight-20<=screenMid&&waterfall.data.img.length!==0){
+                    li=document.createElement('li');
+                    li.innerHTML='<img src="'+waterfall.data.img.shift()+'">';
+                    aUl[i].appendChild(li);
+                }
+            }
+        },
+        col:function(){
+            window.onscroll=function(){
+                waterfall.watch();
+            }
+        }
+    };
+    var arr=[
+        './img/P_010.jpg',
+        './img/P_011.jpg',
+        './img/P_012.jpg',
+        './img/P_013.jpg',
+        './img/P_014.jpg',
+        './img/P_015.jpg',
+        './img/P_016.jpg',
+        './img/P_017.jpg',
+        './img/P_018.jpg',
+        './img/P_019.jpg',
+        './img/P_020.jpg',
+        './img/P_021.jpg',
+        './img/P_022.jpg',
+        './img/P_023.jpg',
+        './img/P_024.jpg',
+        './img/P_025.jpg',
+        './img/P_026.jpg',
+        './img/P_027.jpg',
+        './img/P_028.jpg',
+        './img/P_029.jpg',
+        './img/P_030.jpg',
+        './img/P_031.jpg',
+        './img/P_032.jpg',
+        './img/P_033.jpg',
+        './img/P_034.jpg',
+        './img/P_035.jpg',
+        './img/P_036.jpg',
+        './img/P_037.jpg',
+        './img/P_038.jpg',
+        './img/P_039.jpg',
+        './img/P_040.jpg',
+        './img/P_041.jpg',
+        './img/P_042.jpg',
+        './img/P_043.jpg',
+        './img/P_044.jpg'
+    ];
+    for(var i=0;i<10 ;i++){
+        arr=arr.concat(arr)
+    }
+    waterfall.init('box',{
+        img: arr
+    })
+</script>
+</html>

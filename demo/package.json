@@ -1,0 +1,15 @@
+{
+  "name": "bae-nodejs",
+  "version": "1.0.0",
+  "author": "宋博文",
+  "description": "宋博文的个人简历",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.7",
+    "express-session": "^1.15.6"
+  }
+}

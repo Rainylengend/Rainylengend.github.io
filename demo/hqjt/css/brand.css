@@ -1,0 +1,32 @@
+.banner{
+    background: url(../img/hqfc/banner1.jpg) no-repeat center center;
+}
+.brand-main{
+    width:1178px;
+    margin:20px auto;
+    background: #fff;
+}
+.brand-main .tabs li{
+    float: left;
+}
+.brand-main .tabs li a{
+    display: block;
+    width:235px;
+    color: #333;
+    text-align: center;
+    line-height:60px;
+    border-right:2px solid #f7f8fa;
+    cursor: pointer;
+}
+.brand-main .tabs li a.active{
+    color: #fff;
+    background: #e89724;
+}
+.brand-main .content{
+    padding:50px 0;
+    border-top:2px solid #f7f8fa;
+    position: relative;
+}
+.brand-main .content img{
+    margin:0 auto 30px;
+}

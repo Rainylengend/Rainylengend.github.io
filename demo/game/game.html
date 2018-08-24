@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<title>表情游戏</title>
+	<style type="text/css">
+		*{margin:0; padding: 0;}
+		body{background: #eee;}
+		#top{width:200px; height:100px; margin: 0 auto; background: #ee0; overflow: hidden;
+			text-align: center;}
+		#box{width: 800px; height: 550px; border:1px solid #000; margin:0 auto; position: relative;}
+		#btn{margin:20px auto; display: block;}
+		.bq{width: 50px; height: 50px; position: absolute;left: 0;top: 0; cursor:pointer;}
+	</style>
+	<script type="text/javascript">
+		//运动函数
+		function move(obj,attr,target,rata,fn){
+			function getStyle(obj,attr){
+				return obj.currentStyle ? obj.currentStyle(attr) : getComputedStyle(obj)[attr];
+			}
+			var dis=parseInt( getStyle(obj,attr) );
+			clearInterval(obj.timer);
+			rata= target-parseInt( getStyle(obj,attr) )>0 ? rata : -rata;
+			obj.timer=setInterval(function(){			
+				dis=parseInt( getStyle(obj,attr) ) + rata;
+				if(dis>=target&&rata>0||dis<=target&&rata<0){
+					dis=target;
+					clearInterval(obj.timer);
+					obj.timer=null
+					fn&&fn();
+					obj.style[attr]=dis+"px";
+				}else{
+					obj.style[attr]=dis+"px";
+				}
+			},30)
+		}
+		//抖动函数
+		function shake(obj,attr,f,rata,fn){
+			//获取样式的函数
+			function getStyle(obj,attr){
+				return obj.currentStyle ? obj.currentStyle(attr) : getComputedStyle(obj)[attr];
+			}
+			//检测是否传参;
+			if(obj.timer) return;
+			rata=rata||1;
+			f=f||15;
+			attr=attr||"left";
+			var arr=[];
+			var num=0;
+			for (var i = f; i > 0; i-=rata) {
+				arr.push(-i,i)
+			};
+			arr.push(0);
+			//利用定时器开始抖动
+			obj.timer=setInterval(function(){
+				obj.style[attr]=parseInt( getStyle(obj,attr) )+arr[num]+"px";
+				num++;
+				if(num>arr.length){
+					clearInterval(obj.timer);
+					obj.timer=null;
+					fn&&fn();
+				}
+			},30)
+		}
+		window.onload=function(){
+			var oBox=document.getElementById('box');
+			var oBtn=document.getElementById("btn");
+			var aSpan=document.getElementsByTagName("span");
+			var time=null;
+			var end=0;
+			var speed=2;
+			oBtn.onclick=function(){
+				end=0;
+				speed=2;
+				aSpan[0].innerHTML=aSpan[1].innerHTML=0;
+				oBtn.disabled=true;
+				function demo(){
+					var num=Math.round(Math.random()*776);
+					var bqNum=Math.ceil(Math.random()*11);
+					var oDiv=document.createElement("div");
+					oDiv.className="bq";
+					oDiv.style.background="url("+bqNum+".png) center no-repeat";
+					oDiv.style.left=num+"px"
+					oBox.appendChild(oDiv);
+					move(oDiv,"top",526,speed,function(){
+						end++;
+						oDiv.style.background="url(qq.png) center no-repeat";
+						aSpan[1].innerHTML=end;
+						shake(oBox,"top",10,1,function(){
+							oBox.removeChild(oDiv);
+							if(end==3){
+								clearInterval(time);
+								time=null;
+								alert("很遗憾游戏失败了,您的得分为:"+aSpan[0].innerHTML);
+								//游戏结束时检测oBox中的所有div,让其全部移除
+								var len=oBox.children.length;
+								for (var i = 0; i < len; i++) {
+									oBox.removeChild(oBox.children[0]);
+								};
+								oBtn.disabled=false;
+							}
+						});
+					})
+					oDiv.onmousedown=function(){
+						oDiv.style.background="url(qq.png) center no-repeat";
+						clearInterval(oDiv.timer);
+						oDiv.timer=null;
+						shake(this,"left",10,1,function(){
+							oBox.removeChild(oDiv);
+							aSpan[0].innerHTML=speed-1;
+							speed+=1;
+						});
+					}		
+				}
+				demo();
+				time=setInterval(demo,2000);
+			}
+		}
+	</script>
+</head>
+<body>
+	<div id="top">
+		<input type="button" id="btn" value="开始游戏">
+		得分: <span>0</span>
+		失分: <span>0</span>
+	</div>
+	<div id="box">
+		
+	</div>
+</body>
+</html>

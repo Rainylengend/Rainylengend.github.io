@@ -1,0 +1,56 @@
+[
+	{
+		"enlarge":[
+			"img/bigger1.jpg",
+			"img/bigger2.jpg",
+			"img/bigger3.jpg",
+			"img/bigger4.jpg",
+			"img/bigger5.jpg"
+		],
+		"name":"北欧欧慕Nathome宝宝专用灵动空气净化器",
+		"intro":"纳米过滤空气净化器氧吧，静音设计，睡眠0打扰，时刻保障最佳睡眠呼吸环境。清新呵护 处处关爱，无时无刻，远离空气污染的困扰，给宝宝最贴心的保护。",
+		"price":[249,125.63,799],
+		"sale":[15,2],
+		"id":"011",
+		"details":[
+			"img/details1.jpg",
+			"img/details2.jpg",
+			"img/details3.jpg",
+			"img/details4.jpg",
+			"img/details5.jpg",
+			"img/details6.jpg",
+			"img/details7.jpg",
+			"img/details8.jpg",
+			"img/details9.jpg",
+			"img/details10.jpg",
+			"img/details11.jpg",
+			"img/details12.jpg",
+			"img/details13.jpg",
+			"img/details14.jpg",
+			"img/details15.jpg",
+			"img/details16.jpg",
+			"img/details17.jpg",
+			"img/details18.jpg",
+			"img/details19.jpg",
+			"img/details20.jpg"
+		],
+		"evaluate":[
+			{
+				"user":"卡***A",
+				"lavel":["V4","钻石会员"],
+				"txt":"已经放在办公室用了一年了 没有评论 现在过滤芯片没有更换 声音变响了 已经不用了 不过东西不错的",
+				"time":["2016-03-15 11:32","2016/3/15 15:27:53"],
+				"star":4,
+				"answer":"亲爱的顾客，您好。这款商品采用静音设计，睡眠0打扰，时刻保障最佳睡眠呼吸环境。清新呵护 处处关爱！感谢您对麦乐购的支持，祝您生活愉快！（麦乐购客服中心）"
+			},
+			{
+				"user":"151***",
+				"lavel":["V3","黄金会员"],
+				"txt":"一如既往的好",
+				"time":["2016-06-28 11:06","2016/6/28 15:51:17"],
+				"star":5,
+				"answer":"亲爱的顾客，您好。感谢您对麦麦的信任，麦麦期待每一款商品都能得到您的认可，这也是麦麦的动力，祝您生活愉快！（麦乐购客服中心）"
+			}
+		]
+	}
+]

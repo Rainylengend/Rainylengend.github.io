@@ -1,0 +1,40 @@
+.contactUS-main{
+	width:1200px;
+	margin:0 auto;
+	margin-bottom:50px;
+}
+.contactUS-title{
+	margin-bottom:50px;
+}
+.contactUS-title h2{
+	padding:30px 0 8px 0;
+	font-size: 30px;
+}
+.contactUS-title h3{
+	font-size:14px;
+	color: #999;
+}
+.contactUS-main .part{
+	padding:30px 0;
+	border-bottom:1px dashed #707070;
+	line-height:40px;
+}
+.contactUS-main .part h3{
+	font-size:24px;
+}
+.contactUS-main .part p{
+	color: #707070;
+	font-size:14px;
+}
+.contactUS-main .borderNo{
+	border:none;
+}
+#map{
+	width:1200px;
+	height:600px;
+	margin:0 auto 50px;
+	border:2px solid #333;
+	box-shadow: 0 0 5px #333;
+}
+.iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+.iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}

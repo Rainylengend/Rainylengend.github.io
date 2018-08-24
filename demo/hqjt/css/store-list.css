@@ -1,0 +1,42 @@
+.banner{
+    background: url(../img/hqfc/banner1.jpg) no-repeat center center;
+}
+.store-main{
+    width:1178px;
+    margin:20px auto;
+    background: #fff;
+}
+.store-main .tabs li{
+    float: left;
+    width:392px;
+    color: #333;
+    text-align: center;
+    line-height:60px;
+    border-right:2px solid #f7f8fa;
+    cursor: pointer;
+}
+.store-main .tabs li.active{
+    color: #fff;
+    background: #e89724;
+}
+.store-main .tabs li:hover{
+    color: #fff;
+    background: #e89724;
+}
+.store-main h3{
+    text-align: center;
+    line-height:60px;
+    color: #e89724;
+    border:2px solid #f7f8fa;
+    border-right: 0;
+    border-left:0;
+}
+.store-main .content{
+    padding:50px 80px;
+}
+.store-main .instructions{
+    text-indent: 32px;
+}
+.store-main .standard{
+    margin:25px 0;
+}

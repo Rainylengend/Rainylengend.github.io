@@ -1,0 +1,40 @@
+.joinUS-list{
+	width:1200px;
+	margin:0 auto;
+}
+.banner{
+	height:150px;
+	background: url(../img/joinUs/banner.jpg) center center;
+}
+.joinUs-view-title h2{
+	padding:30px 0 8px 0;
+	font-size: 40px;
+	line-height: 60px;
+}
+.joinUs-view-title h3{
+	font-size:24px;
+	color: #333;
+}
+.joinUS-list table{
+	width:100%;
+	text-align: center;
+	font-size:16px;
+	color: #666;
+	line-height:40px;
+	border-collapse: separate;
+	border-spacing:2px;
+	margin: 50px auto;
+}
+.joinUS-list td{
+	background: #eee;
+}
+.joinUS-list .tdBold{
+	background: #ddd;
+}
+.jobDesc{
+	width:100%;
+	margin:0 auto 50px;
+	line-height:30px;
+	font-size:16px;
+	color: #666;
+}

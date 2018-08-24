@@ -1,0 +1,116 @@
+.banner{
+    background: url(../img/hqfc/banner1.jpg) no-repeat center center;
+}
+.into-hq-main{
+    width:1178px;
+    margin:20px auto;
+    background: #fff;
+}
+.into-hq-main .tabs li{
+    width:235px;
+    color: #333;
+    text-align: center;
+    line-height:60px;
+    border-right:2px solid #f7f8fa;
+    cursor: pointer;
+    float: left;
+}
+.into-hq-main .tabs li.active{
+    color: #fff;
+    background: #e89724;
+}
+.view .title{
+    font-size:24px;
+    line-height:42px;
+    color: #e89724;
+    border-width:2px 0;
+    border-color:#f7f8fa;
+    border-style: solid;
+    padding:19px 0;
+}
+.view .content{
+    padding:50px 80px;
+}
+.profile,.speech,.culture,.development,.contact-us{
+    display: none;
+}
+.view > div.active{
+    display: block;
+}
+.profile .content{
+    position: relative;
+}
+.profile .content img{
+    position: absolute;
+    top:50px;
+    right:80px;
+}
+.culture-padding{
+    padding:16px 80px;
+}
+.culture-title{
+    color: #e89724;
+    height:62px;
+    border-width:2px 0;
+    border-color:#f7f8fa;
+    border-style: solid;
+}
+.culture-img{
+    border-width:2px 0 0 0;
+    border-color:#f7f8fa;
+    border-style: solid;
+    padding:22px 0;
+}
+.culture-img img{
+    margin:auto;
+}
+.speech .content img{
+    margin:80px auto 0;
+}
+.view .content p{
+    text-indent: 32px;
+}
+/* development */
+.development{
+    border-top:2px solid #f7f8fa;
+}
+.development ul{
+    width:102px;
+    border-right:2px solid #f7f8fa;
+}
+.development li{
+    width:100px;
+    height:41px;
+    text-align: center;
+    line-height:40px;
+    color: #666;
+    border-bottom:2px solid #f7f8fa;
+    cursor: pointer;
+}
+.development li.active{
+    background: #e89724;
+    color: #fff;
+}
+.development li:hover{
+    background: #e89724;
+    color: #fff;
+}
+.development .content{
+    margin-left:102px;
+}
+.development .content p{
+    text-indent:0;
+}
+/* contac us */
+.contact-title{
+    height:62px;
+    line-height:60px;
+    color: #e89724;
+    border-width:2px 0;
+    border-color:#f7f8fa;
+    border-style: solid;
+}
+.contact-content{
+    text-align: center;
+    padding:17px 0;
+}

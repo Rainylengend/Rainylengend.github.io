@@ -1,0 +1,2412 @@
+{
+  "seller": [
+    {
+      "address": "地址:李村镇洛阳师范学院内",
+      "BusinessHours": "营业时间：[\"9:00-22:00\"]",
+      "notice": [
+        "近期外卖较多，请大家写清楚送货地址以及送达时间，报错电话畅通，谢谢大家"
+      ],
+      "activity": [
+        "新用户下单立减9.0元（不与其他活动同享）（app专享）"
+      ],
+      "storeImg": "/static/img/seller1.jpg",
+      "name": "丹麦红豆饼（师范学院店）",
+      "star": {
+        "grade": 4.8,
+        "amount": 5,
+        "monthAmount": 356
+      },
+      "delivery": {
+        "begin": 10,
+        "free": 2,
+        "distance": 138,
+        "time": 20
+      }
+    },
+    {
+      "address": "地址：洛阳市伊滨区李村镇新民村",
+      "BusinessHours": "营业时间：[\"14:30-22:00\"]",
+      "notice": [
+        "用餐高峰期！请提前下单！御膳叉骨全国连锁，欢迎加盟。章鱼小丸子台湾总店技术支持质量有保障。军屯祸魁四川电视台美食推荐小吃。欢迎您的品尝光顾。"
+      ],
+      "activity": [
+        "新用户下单立减9.0元（不与其他活动同享）（app专享）",
+        "满20减6（app专享）"
+      ],
+      "storeImg": "/static/img/seller2.jpg",
+      "name": "章鱼小丸子御膳叉骨",
+      "star": {
+        "grade": 5,
+        "amount": 5,
+        "monthAmount": 20
+      },
+      "delivery": {
+        "begin": 10,
+        "free": 0,
+        "distance": 558,
+        "time": null
+      }
+    },
+    {
+      "address": "地址:李村镇洛阳师范学院内",
+      "BusinessHours": "营业时间：[\"9:00-22:00\"]",
+      "notice": [
+        "用餐高峰期！请提前下单！"
+      ],
+      "activity": [
+        "新用户下单立减9.0元（不与其他活动同享）（app专享）",
+        "满20减6（app专享）"
+      ],
+      "storeImg": "/static/img/seller3.jpg",
+      "name": "老校区舌尖上的烤面筋",
+      "star": {
+        "grade": 4.8,
+        "amount": 5,
+        "monthAmount": 770
+      },
+      "delivery": {
+        "begin": 10,
+        "free": 0,
+        "distance": 560,
+        "time": 30
+      }
+    },
+    {
+      "address": "地址：洛阳师范学院新校区",
+      "BusinessHours": "营业时间：[\"10:30-21:00\"]",
+      "notice": [
+        "如您对本店外卖满意，请给好评，点击页顶左侧【我的饿单】给外卖打分即可得【饿了么礼品积分】“我的饿单”旁边的“礼品中心”可查看有哪些用积分可以兑换的礼品！"
+      ],
+      "activity": [
+        "新用户下单立减9.0元（不与其他活动同享）（app专享）",
+        "满20减1（app专享）",
+        "满10元赠送矿泉水一份（app专享）"
+      ],
+      "storeImg": "/static/img/seller4.jpg",
+      "name": "食为先精品盖浇饭",
+      "star": {
+        "grade": 3.8,
+        "amount": 4,
+        "monthAmount": 289
+      },
+      "delivery": {
+        "begin": 8,
+        "free": 0,
+        "distance": 682,
+        "time": 32
+      }
+    },
+    {
+      "address": "地址：洛阳市伊滨区李村镇玉泉商业街",
+      "BusinessHours": "营业时间：[\"10:30-22:00\"]",
+      "notice": [
+        "满意就五星好评哟"
+      ],
+      "activity": [
+        "新用户下单立减9.0元（不与其他活动同享）（app专享）",
+        "满10减2，满15减3，满20减4（app专享）"
+      ],
+      "storeImg": "/static/img/seller5.jpg",
+      "name": "豆逗婆土豆粉",
+      "star": {
+        "grade": 5,
+        "amount": 5,
+        "monthAmount": 21
+      },
+      "delivery": {
+        "begin": 8,
+        "free": 0,
+        "distance": 1060,
+        "time": 18
+      }
+    },
+    {
+      "address": "地址：洛阳市伊滨区玉泉商业街",
+      "BusinessHours": "营业时间：[\"08:00-00:30\"]",
+      "notice": [
+        "欢迎新老顾客光临"
+      ],
+      "activity": [
+        "新用户下单立减9.0元（不与其他活动同享）（app专享）"
+      ],
+      "storeImg": "/static/img/seller6.jpg",
+      "name": "A西安（麻辣香）烤面筋",
+      "star": {
+        "grade": 4.8,
+        "amount": 5,
+        "monthAmount": 299
+      },
+      "delivery": {
+        "begin": 10,
+        "free": 0,
+        "distance": 505,
+        "time": 27
+      }
+    },
+    {
+      "address": "地址：洛阳市洛龙区洛宜路祥和苑小区门面房",
+      "BusinessHours": "营业时间：[\"14:30-22:30\"]",
+      "notice": [
+        "欢迎光临，用餐高峰期，请提前下单，谢谢！"
+      ],
+      "activity": [
+        "新用户下单立减9.0元（不与其他活动同享）（app专享）"
+      ],
+      "storeImg": "/static/img/seller7.jpg",
+      "name": "李记荷叶馍",
+      "star": {
+        "grade": 4.3,
+        "amount": 4,
+        "monthAmount": 503
+      },
+      "delivery": {
+        "begin": 10,
+        "free": 0,
+        "distance": 558,
+        "time": 39
+      }
+    },
+    {
+      "address": "地址：洛阳市伊滨区李村镇玉泉商业街",
+      "BusinessHours": "营业时间：[\"09:30-21:30\"]",
+      "notice": [
+        "用餐高峰期，请提前下单，谢谢"
+      ],
+      "activity": [
+        "新用户下单立减9.0元（不与其他活动同享）（app专享）",
+        "满10减2，满20减6"
+      ],
+      "storeImg": "/static/img/seller8.jpg",
+      "name": "王家酸辣粉",
+      "star": {
+        "grade": 4.4,
+        "amount": 4,
+        "monthAmount": 13
+      },
+      "delivery": {
+        "begin": 10,
+        "free": 0,
+        "distance": 558,
+        "time": 21
+      }
+    },
+    {
+      "address": "地址：洛阳市伊滨区李村镇南寨村",
+      "BusinessHours": "营业时间：[\"10:00-22:00\"]",
+      "notice": [
+        "本店支持饿了么订单，优先配送饿了么订餐，欢迎下单！"
+      ],
+      "activity": [
+        "新用户下单立减9.0元（不与其他活动同享）（app专享）",
+        "满10减1，满20减2，满30减3（app专享）",
+        "真情大回馈（app专享）"
+      ],
+      "storeImg": "/static/img/seller9.jpg",
+      "name": "一品炸鸡饭（折扣套餐）",
+      "star": {
+        "grade": 4.7,
+        "amount": 5,
+        "monthAmount": 718
+      },
+      "delivery": {
+        "begin": 8,
+        "free": 0,
+        "distance": 738,
+        "time": 30
+      }
+    },
+    {
+      "address": "地址：洛阳市伊滨区洛阳师范学院桃园商业街",
+      "BusinessHours": "营业时间：[\"11:00-21:00\"]",
+      "notice": [
+        "1.本店推荐您在“饿了么”网上订餐； 2、外卖制作+配送需耗时，望您提前半小时以上预订； 【饿了么全国客服：10105757】； 投诉电话：13233907550"
+      ],
+      "activity": [
+        "新用户下单立减9.0元（不与其他活动同享）（app专享）"
+      ],
+      "storeImg": "/static/img/seller10.jpg",
+      "name": "搏斗鸡排",
+      "star": {
+        "grade": 4.8,
+        "amount": 5,
+        "monthAmount": 138
+      },
+      "delivery": {
+        "begin": 15,
+        "free": 5,
+        "distance": 552,
+        "time": 59
+      }
+    },
+    {
+      "address": "地址：洛阳市伊滨区李村镇吉家寨村",
+      "BusinessHours": "营业时间：[\"11:30-22:20\"]",
+      "notice": [
+        "不接受货到付款，仅支持线上付款"
+      ],
+      "activity": [
+        "新用户下单立减9.0元（不与其他活动同享）（app专享）"
+      ],
+      "storeImg": "/static/img/seller11.jpg",
+      "name": "哈尔滨烤冷面",
+      "star": {
+        "grade": 4.3,
+        "amount": 4,
+        "monthAmount": 417
+      },
+      "delivery": {
+        "begin": 10,
+        "free": 0,
+        "distance": 672,
+        "time": 36
+      }
+    },
+    {
+      "address": "地址：洛阳市伊滨区李村镇玉泉商业街",
+      "BusinessHours": "营业时间：[\"11:30-21:30\"]",
+      "notice": [
+        "欢迎光临，用餐高峰期请提前下单，谢谢"
+      ],
+      "activity": [
+        "新用户下单立减9.0元（不与其他活动同享）（app专享）"
+      ],
+      "storeImg": "/static/img/seller12.jpg",
+      "name": "汉中米皮",
+      "star": {
+        "grade": 4.3,
+        "amount": 4,
+        "monthAmount": 437
+      },
+      "delivery": {
+        "begin": 6,
+        "free": 0,
+        "distance": 558,
+        "time": 29
+      }
+    },
+    {
+      "address": "地址：涧西区郑州路与西苑路交叉口男50米",
+      "BusinessHours": "营业时间：[\"11:00-22:00\"]",
+      "notice": [
+        "欢迎光临，用餐高峰期请提前下单，谢谢"
+      ],
+      "activity": [
+        "新用户下单立减9.0元（不与其他活动同享）（app专享）",
+        "满8.0元赠送小木屋1罐（app专享）"
+      ],
+      "storeImg": "/static/img/seller13.jpg",
+      "name": "广东炒河粉",
+      "star": {
+        "grade": 4.7,
+        "amount": 6,
+        "monthAmount": 69
+      },
+      "delivery": {
+        "begin": 8,
+        "free": 0,
+        "distance": 558,
+        "time": 16
+      }
+    },
+    {
+      "address": "地址：洛阳市洛龙区学子街（博客网城楼下）",
+      "BusinessHours": "营业时间：[\"11:00-22:35\"]",
+      "notice": [
+        "订外卖的同学请注意，下单要写好宿舍楼，及房间号，有好多学生订完外卖，手机就关机了，怎么都联系不上，问题出来了都认为我们商家怎么怎么样，大家都很忙，希望大家多注意"
+      ],
+      "activity": [
+        "新用户下单立减9.0元（不与其他活动同享）（app专享）"
+      ],
+      "storeImg": "/static/img/seller14.jpg",
+      "name": "无骨鸡柳荷叶馍",
+      "star": {
+        "grade": 4.7,
+        "amount": 5,
+        "monthAmount": 434
+      },
+      "delivery": {
+        "begin": 7,
+        "free": 0,
+        "distance": 558,
+        "time": 30
+      }
+    },
+    {
+      "address": "地址：洛阳市伊滨区李村镇新民村",
+      "BusinessHours": "营业时间：[\"10:00-22:00\"]",
+      "notice": [
+        "欢迎光临，用餐高峰期，请提前下单，谢谢"
+      ],
+      "activity": [
+        "新用户下单立减9.0元（不与其他活动同享）（app专享）"
+      ],
+      "storeImg": "/static/img/seller15.jpg",
+      "name": "精品盖浇饭",
+      "star": {
+        "grade": 5,
+        "amount": 5,
+        "monthAmount": 16
+      },
+      "delivery": {
+        "begin": 10,
+        "free": 0,
+        "distance": 558,
+        "time": null
+      }
+    },
+    {
+      "address": "地址：洛阳市伊滨区李村镇玉泉商业街",
+      "BusinessHours": "营业时间：[\"11:00-21:30\"]",
+      "notice": [
+        "中午11:30—13:00订餐的亲们请注意了，为保证质量和口感，炒类一锅最多出两份，加上中午订餐人数比较多，个别可能会迟30分钟左右，请中午用餐时间比较紧迫的亲们谨慎下单，包括提前预订的亲！"
+      ],
+      "activity": [
+        "新用户下单立减9.0元（不与其他活动同享）（app专享）"
+      ],
+      "storeImg": "/static/img/seller16.jpg",
+      "name": "米婆婆家常炒饭",
+      "star": {
+        "grade": 4.4,
+        "amount": 4,
+        "monthAmount": 523
+      },
+      "delivery": {
+        "begin": 8,
+        "free": 0,
+        "distance": 446,
+        "time": 35
+      }
+    },
+    {
+      "address": "地址：洛阳市伊滨区洛阳师范学院新校区",
+      "BusinessHours": "营业时间：[\"00:00-24:00\"]",
+      "notice": [
+        "进实体店消费永久性9.5折～米饭免费"
+      ],
+      "activity": [
+        "新用户下单立减9.0元（不与其他活动同享）（app专享）",
+        "满30元赠送汉斯小木屋1分，满50赠送汉斯小木屋2份（app专享）"
+      ],
+      "storeImg": "/static/img/seller17.jpg",
+      "name": "重庆麻辣香锅（玉泉街）",
+      "star": {
+        "grade": 4.7,
+        "amount": 5,
+        "monthAmount": 396
+      },
+      "delivery": {
+        "begin": 15,
+        "free": 0,
+        "distance": 312,
+        "time": 30
+      }
+    },
+    {
+      "address": "地址：洛阳市伊滨区李村镇新民村",
+      "BusinessHours": "营业时间：[\"09:30-22:00\"]",
+      "notice": [
+        "1.订餐请注明送餐地址，保持电话畅通 3.外卖制作+配送需耗时，望您提前半小时以上预订； 【饿了么全国客服：4000557117】  投诉帮助电话：13233907550"
+      ],
+      "activity": [
+        "新用户下单立减9.0元（不与其他活动同享）（app专享）"
+      ],
+      "storeImg": "/static/img/seller18.jpg",
+      "name": "民间瓦罐煨汤（木桶饭）",
+      "star": {
+        "grade": 3.8,
+        "amount": 4,
+        "monthAmount": 624
+      },
+      "delivery": {
+        "begin": 10,
+        "free": 0,
+        "distance": 552,
+        "time": 32
+      }
+    },
+    {
+      "address": "地址：洛阳市伊滨区李村镇玉泉商业街",
+      "BusinessHours": "营业时间：[\"10:00-22:00\"]",
+      "notice": [
+        "亲米饭是单点的哦"
+      ],
+      "activity": [
+        "新用户下单立减9.0元（不与其他活动同享）（app专享）"
+      ],
+      "storeImg": "/static/img/seller19.jpg",
+      "name": "重庆鸡公煲（玉泉街）",
+      "star": {
+        "grade": 3.8,
+        "amount": 4,
+        "monthAmount": 388
+      },
+      "delivery": {
+        "begin": 10,
+        "free": 0,
+        "distance": 558,
+        "time": 30
+      }
+    },
+    {
+      "address": "地址：洛阳市伊滨区李村镇玉泉商业街A11",
+      "BusinessHours": "营业时间：[\"09:30-22:00\"]",
+      "notice": [
+        "1.本店推荐您在“饿了么”网上订餐； 2.给你减减减不断，饿君让你天天年年 3.外卖制作+配送需耗时，望您提前半小时以上预订； 【饿了么全国客服：4000557117】； 投诉帮助电话：13233907550"
+      ],
+      "activity": [
+        "新用户下单立减9.0元（不与其他活动同享）（app专享）"
+      ],
+      "storeImg": "/static/img/seller20.jpg",
+      "name": "多米诺炸鸡、汉堡",
+      "star": {
+        "grade": 4.4,
+        "amount": 4,
+        "monthAmount": 391
+      },
+      "delivery": {
+        "begin": 10,
+        "free": 0,
+        "distance": 398,
+        "time": 39
+      }
+    }
+  ],
+  "goods": [
+    {
+      "classify": [
+        "热销榜",
+        "面包系列",
+        "甜品",
+        "饮品"
+      ],
+      "details": [
+        [
+          {
+            "id": 1,
+            "name": "丹麦红豆饼",
+            "monthSelling": 219,
+            "goodRating": "100%",
+            "price": 5,
+            "img":"/static/img/seller1_goods1.jpg"
+          }
+        ],
+        [
+          {
+            "id": 2,
+            "name": "香蕉排包",
+            "monthSelling": 14,
+            "goodRating": "100%",
+            "price": 3,
+            "img":"/static/img/seller1_goods2.jpg"
+          },
+          {
+            "id": 3,
+            "name": "豆沙包",
+            "monthSelling": 18,
+            "goodRating": "100%",
+            "price": 3,
+            "img":"/static/img/seller1_goods3.jpg"
+          },
+          {
+            "id": 4,
+            "name": "甜甜圈",
+            "monthSelling": 37,
+            "goodRating": "100%",
+            "price": 3,
+            "img":"/static/img/seller1_goods4.jpg"
+          },
+          {
+            "id": 5,
+            "name": "棉白吐司切片",
+            "monthSelling": 17,
+            "goodRating": "100%",
+            "price": 5,
+            "img":"/static/img/seller1_goods5.jpg"
+          },
+          {
+            "id": 6,
+            "name": "椰蓉吐司",
+            "monthSelling": 46,
+            "goodRating": "100%",
+            "price": 5,
+            "img":"/static/img/seller1_goods6.jpg"
+          }
+        ],
+        [
+          {
+            "id": 7,
+            "name": "丹麦红豆饼",
+            "monthSelling": 219,
+            "goodRating": "100%",
+            "price": 5,
+            "img":"/static/img/seller1_goods1.jpg"
+          },
+          {
+            "id": 8,
+            "name": "金丝枣糕",
+            "monthSelling": 36,
+            "goodRating": "100%",
+            "price": 10,
+            "img":"/static/img/seller1_goods7.jpg"
+          },
+          {
+            "id": 9,
+            "name": "奶油泡芙",
+            "monthSelling": 101,
+            "goodRating": "80%",
+            "price": 15,
+            "img":"/static/img/seller1_goods8.jpg"
+          }
+        ],
+        [
+          {
+            "id": 10,
+            "name": "绿茶",
+            "monthSelling": 2,
+            "goodRating": "80%",
+            "price": 2,
+            "img":"/static/img/seller1_goods9.jpg"
+          },
+          {
+            "id": 11,
+            "name": "菊花枸杞茶",
+            "monthSelling": 1,
+            "goodRating": "100%",
+            "price": 3,
+            "img":"/static/img/seller1_goods10.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "classify": [
+        "章鱼小丸子",
+        "御膳叉骨",
+        "军囤祸魁",
+        "太湖藕粉羹"
+      ],
+      "details": [
+        [
+          {
+            "name": "章鱼小丸子",
+            "monthSelling": 37,
+            "goodRating": "100%",
+            "price": 5,
+            "img":"/static/img/seller2_goods1.jpg"
+          }
+        ],
+        [
+          {
+            "name": "叉骨 大份",
+            "monthSelling": 13,
+            "goodRating": "100%",
+            "price": 10,
+            "img":"/static/img/seller2_goods2.jpg"
+          },
+          {
+            "name": "叉骨 小份",
+            "monthSelling": 8,
+            "goodRating": "100%",
+            "price": 5,
+            "img":"/static/img/seller2_goods2.jpg"
+          },
+          {
+            "name": "大鸡腿",
+            "monthSelling": 4,
+            "goodRating": "100%",
+            "price": 10,
+            "img":"/static/img/seller2_goods4.jpg"
+          },
+          {
+            "name": "大鸡腿，加一元送一份",
+            "monthSelling": 4,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller2_goods4.jpg"
+          },
+          {
+            "name": "御膳无骨鸡柳",
+            "monthSelling": 1,
+            "goodRating": "100%",
+            "price": 10,
+            "img":"/static/img/seller2_goods3.jpg"
+          }
+        ],
+        [
+          {
+            "name": "鲜肉祸魁",
+            "monthSelling": 14,
+            "goodRating": "100%",
+            "price": 4,
+            "img":"/static/img/seller2_goods5.jpg"
+          },
+          {
+            "name": "牛肉祸魁",
+            "monthSelling": 16,
+            "goodRating": "100%",
+            "price": 6,
+            "img":"/static/img/seller2_goods5.jpg"
+          }
+        ],
+        [
+          {
+            "name": "美味藕粉羹大杯",
+            "monthSelling": 20,
+            "goodRating": "70%",
+            "price": 4,
+            "img":"/static/img/seller2_goods6.jpg"
+          },
+          {
+            "name": "藕粉羹中杯",
+            "monthSelling": 15,
+            "goodRating": "100%",
+            "price": 3,
+            "img":"/static/img/seller2_goods6.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "classify": [
+        "热销榜",
+        "口味（必选）"
+      ],
+      "details": [
+        [
+          {
+            "name": "手工烤面筋",
+            "monthSelling": 1476,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods1.jpg"
+
+          },
+          {
+            "name": "烤饼",
+            "monthSelling": 11888,
+            "goodRating": "100%",
+            "price": 2,
+            "img":"/static/img/seller3_goods2.jpg"
+          },
+          {
+            "name": "烤土豆片",
+            "monthSelling": 926,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods3.jpg"
+          },
+          {
+            "name": "鱼豆腐",
+            "monthSelling": 913,
+            "goodRating": "100%",
+            "price": 1,
+             "img":"/static/img/seller3_goods4.jpg"
+          },
+          {
+            "name": "烤香肠",
+            "monthSelling": 676,
+            "goodRating": "100%",
+            "price": 1,
+             "img":"/static/img/seller3_goods5.jpg"
+          },
+          {
+            "name": "烤年糕",
+            "monthSelling": 594,
+            "goodRating": "100%",
+            "price": 1,
+             "img":"/static/img/seller3_goods6.jpg"
+          },
+          {
+            "name": "烤豆筋",
+            "monthSelling": 464,
+            "goodRating": "100%",
+            "price": 1,
+             "img":"/static/img/seller3_goods7.jpg"
+          },
+          {
+            "name": "烤豆腐皮",
+            "monthSelling": 349,
+            "goodRating": "80%",
+            "price": 1,
+             "img":"/static/img/seller3_goods8.jpg"
+          },
+          {
+            "name": "甜不辣",
+            "monthSelling": 286,
+            "goodRating": "100%",
+            "price": 1,
+             "img":"/static/img/seller3_goods9.jpg"
+          },
+          {
+            "name": "羊肉串",
+            "monthSelling": 248,
+            "goodRating": "100%",
+            "price": 1,
+             "img":"/static/img/seller3_goods10.jpg"
+          }
+        ],
+        [
+          {
+            "name": "手工烤面筋",
+            "monthSelling": 1476,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods1.jpg"
+
+          },
+          {
+            "name": "烤饼",
+            "monthSelling": 11888,
+            "goodRating": "100%",
+            "price": 2,
+            "img":"/static/img/seller3_goods2.jpg"
+          },
+          {
+            "name": "烤土豆片",
+            "monthSelling": 926,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods3.jpg"
+          },
+          {
+            "name": "鱼豆腐",
+            "monthSelling": 913,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods4.jpg"
+          },
+          {
+            "name": "烤香肠",
+            "monthSelling": 676,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods5.jpg"
+          },
+          {
+            "name": "烤年糕",
+            "monthSelling": 594,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods6.jpg"
+          },
+          {
+            "name": "烤豆筋",
+            "monthSelling": 464,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods7.jpg"
+          },
+          {
+            "name": "烤豆腐皮",
+            "monthSelling": 349,
+            "goodRating": "80%",
+            "price": 1,
+            "img":"/static/img/seller3_goods8.jpg"
+          },
+          {
+            "name": "甜不辣",
+            "monthSelling": 286,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods9.jpg"
+          },
+          {
+            "name": "羊肉串",
+            "monthSelling": 248,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods10.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "classify": [
+        "盖浇饭素菜",
+        "盖浇饭荤菜",
+        "主食"
+      ],
+      "details": [
+        [
+          {
+            "name": "素炒三丝盖浇饭",
+            "monthSelling": 9,
+            "goodRating": "100%",
+            "price": 8,
+            "img":"/static/img/seller4_goods1.jpg"
+
+          },
+          {
+            "name": "麻辣豆腐盖浇饭",
+            "monthSelling": 2,
+            "goodRating": "100%",
+            "price": 8,
+            "img":"/static/img/seller4_goods2.jpg"
+          },
+          {
+            "name": "酸辣土豆丝盖浇饭",
+            "monthSelling": 13,
+            "goodRating": "100%",
+            "price": 8,
+            "img":"/static/img/seller4_goods3.jpg"
+          }
+        ],
+        [
+          {
+            "name": "蒸剁椒鱼",
+            "monthSelling": 14,
+            "goodRating": "100%",
+            "price": 12,
+            "img":"/static/img/seller4_goods4.jpg"
+          },
+          {
+            "name": "宫保鸡丁盖浇饭",
+            "monthSelling": 14,
+            "goodRating": "100%",
+            "price": 10,
+            "img":"/static/img/seller4_goods5.jpg"
+          },
+          {
+            "name": "回锅肉盖浇饭",
+            "monthSelling": 14,
+            "goodRating": "100%",
+            "price": 10,
+            "img":"/static/img/seller4_goods6.jpg"
+          },
+          {
+            "name": "青椒肉丝盖浇饭",
+            "monthSelling": 5,
+            "goodRating": "100%",
+            "price": 10,
+            "img":"/static/img/seller4_goods7.jpg"
+          },
+          {
+            "name": "木耳炒肉盖浇饭",
+            "monthSelling": 2,
+            "goodRating": "100%",
+            "price": 10,
+            "img":"/static/img/seller4_goods8.jpg"
+          }
+        ],
+        [
+          {
+            "name": "饺子荤（半斤）",
+            "monthSelling": 5,
+            "goodRating": "100%",
+            "price": 10,
+            "img":"/static/img/seller4_goods9.jpg"
+          },
+          {
+            "name": "鸡蛋炒面",
+            "monthSelling": 2,
+            "goodRating": "100%",
+            "price": 8,
+            "img":"/static/img/seller4_goods10.jpg"
+          },
+          {
+            "name": "炒面",
+            "monthSelling": 2,
+            "goodRating": "80%",
+            "price": 8,
+            "img":"/static/img/seller4_goods11.jpg"
+          },
+          {
+            "name": "蛋炒饭",
+            "monthSelling": 7,
+            "goodRating": "100%",
+            "price": 8,
+            "img":"/static/img/seller4_goods12.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "classify": [
+        "热销榜",
+        "砂锅系列"
+      ],
+      "details": [
+        [
+          {
+            "name": "原味土豆粉",
+            "monthSelling": 38,
+            "goodRating": "100%",
+            "price": 9,
+            "img":"/static/img/seller5_goods1.jpg"
+          }
+        ],
+        [
+          {
+            "name": "酸辣土豆粉",
+            "monthSelling": 10,
+            "goodRating": "100%",
+            "price": 8,
+            "img":"/static/img/seller5_goods2.jpg"
+          },
+          {
+            "name": "麻辣土豆粉",
+            "monthSelling": 28,
+            "goodRating": "100%",
+            "price": 8,
+            "img":"/static/img/seller5_goods3.jpg"
+          },
+          {
+            "name": "番茄土豆粉",
+            "monthSelling": 37,
+            "goodRating": "100%",
+            "price": 8,
+            "img":"/static/img/seller5_goods2.jpg"
+          },
+          {
+            "name": "原味土豆粉",
+            "monthSelling": 4,
+            "goodRating": "100%",
+            "price": 8,
+            "img":"/static/img/seller5_goods1.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "classify": [
+        "热销榜",
+        "口味必选",
+        "烤肉系列"
+      ],
+      "details": [
+        [
+          {
+            "name": "手工烤面筋",
+            "monthSelling": 786,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods1.jpg"
+          }
+        ],
+        [
+          {
+            "name": "烤饼",
+            "monthSelling": 525,
+            "goodRating": "100%",
+            "price": 2,
+            "img":"/static/img/seller3_goods2.jpg"
+          },
+          {
+            "name": "土豆片",
+            "monthSelling": 421,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods3.jpg"
+          },
+          {
+            "name": "鱼豆腐",
+            "monthSelling": 358,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods4.jpg"
+          },
+          {
+            "name": "宁波年糕",
+            "monthSelling": 188,
+            "goodRating": "100%",
+            "price": 2,
+            "img":"/static/img/seller6_goods1.jpg"
+          },
+          {
+            "name": "蟹排",
+            "monthSelling": 346,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller6_goods2.jpg"
+          }
+        ],
+        [
+          {
+            "name": "鱼豆腐",
+            "monthSelling": 358,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods4.jpg"
+          },
+          {
+            "name": "宁波年糕",
+            "monthSelling": 188,
+            "goodRating": "100%",
+            "price": 2,
+            "img":"/static/img/seller6_goods1.jpg"
+          },
+          {
+            "name": "蟹排",
+            "monthSelling": 346,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller6_goods2.jpg"
+          }
+        ],
+        [
+          {
+            "name": "羊肉串五串（假一赔十）",
+            "monthSelling": 10,
+            "goodRating": "80%",
+            "price": 10,
+            "img":"/static/img/seller3_goods10.jpg"
+          },
+          {
+            "name": "牛板筋五串（假一赔十）",
+            "monthSelling": 1,
+            "goodRating": "100%",
+            "price": 10,
+            "img":"/static/img/seller6_goods3.jpg"
+          },
+          {
+            "name": "秘制五花烤肉五串（免费送生菜）",
+            "monthSelling": 12,
+            "goodRating": "100%",
+            "price": 10,
+            "img":"/static/img/seller6_goods4.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "classify": [
+        "热销榜",
+        "面包系列",
+        "甜品",
+        "饮品"
+      ],
+      "details": [
+        [
+          {
+            "id": 1,
+            "name": "丹麦红豆饼",
+            "monthSelling": 219,
+            "goodRating": "100%",
+            "price": 5,
+            "img":"/static/img/seller1_goods1.jpg"
+          }
+        ],
+        [
+          {
+            "id": 2,
+            "name": "香蕉排包",
+            "monthSelling": 14,
+            "goodRating": "100%",
+            "price": 3,
+            "img":"/static/img/seller1_goods2.jpg"
+          },
+          {
+            "id": 3,
+            "name": "豆沙包",
+            "monthSelling": 18,
+            "goodRating": "100%",
+            "price": 3,
+            "img":"/static/img/seller1_goods3.jpg"
+          },
+          {
+            "id": 4,
+            "name": "甜甜圈",
+            "monthSelling": 37,
+            "goodRating": "100%",
+            "price": 3,
+            "img":"/static/img/seller1_goods4.jpg"
+          },
+          {
+            "id": 5,
+            "name": "棉白吐司切片",
+            "monthSelling": 17,
+            "goodRating": "100%",
+            "price": 5,
+            "img":"/static/img/seller1_goods5.jpg"
+          },
+          {
+            "id": 6,
+            "name": "椰蓉吐司",
+            "monthSelling": 46,
+            "goodRating": "100%",
+            "price": 5,
+            "img":"/static/img/seller1_goods6.jpg"
+          }
+        ],
+        [
+          {
+            "id": 7,
+            "name": "丹麦红豆饼",
+            "monthSelling": 219,
+            "goodRating": "100%",
+            "price": 5,
+            "img":"/static/img/seller1_goods1.jpg"
+          },
+          {
+            "id": 8,
+            "name": "金丝枣糕",
+            "monthSelling": 36,
+            "goodRating": "100%",
+            "price": 10,
+            "img":"/static/img/seller1_goods7.jpg"
+          },
+          {
+            "id": 9,
+            "name": "奶油泡芙",
+            "monthSelling": 101,
+            "goodRating": "80%",
+            "price": 15,
+            "img":"/static/img/seller1_goods8.jpg"
+          }
+        ],
+        [
+          {
+            "id": 10,
+            "name": "绿茶",
+            "monthSelling": 2,
+            "goodRating": "80%",
+            "price": 2,
+            "img":"/static/img/seller1_goods9.jpg"
+          },
+          {
+            "id": 11,
+            "name": "菊花枸杞茶",
+            "monthSelling": 1,
+            "goodRating": "100%",
+            "price": 3,
+            "img":"/static/img/seller1_goods10.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "classify": [
+        "章鱼小丸子",
+        "御膳叉骨",
+        "军囤祸魁",
+        "太湖藕粉羹"
+      ],
+      "details": [
+        [
+          {
+            "name": "章鱼小丸子",
+            "monthSelling": 37,
+            "goodRating": "100%",
+            "price": 5,
+            "img":"/static/img/seller2_goods1.jpg"
+          }
+        ],
+        [
+          {
+            "name": "叉骨 大份",
+            "monthSelling": 13,
+            "goodRating": "100%",
+            "price": 10,
+            "img":"/static/img/seller2_goods2.jpg"
+          },
+          {
+            "name": "叉骨 小份",
+            "monthSelling": 8,
+            "goodRating": "100%",
+            "price": 5,
+            "img":"/static/img/seller2_goods2.jpg"
+          },
+          {
+            "name": "大鸡腿",
+            "monthSelling": 4,
+            "goodRating": "100%",
+            "price": 10,
+            "img":"/static/img/seller2_goods4.jpg"
+          },
+          {
+            "name": "大鸡腿，加一元送一份",
+            "monthSelling": 4,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller2_goods4.jpg"
+          },
+          {
+            "name": "御膳无骨鸡柳",
+            "monthSelling": 1,
+            "goodRating": "100%",
+            "price": 10,
+            "img":"/static/img/seller2_goods3.jpg"
+          }
+        ],
+        [
+          {
+            "name": "鲜肉祸魁",
+            "monthSelling": 14,
+            "goodRating": "100%",
+            "price": 4,
+            "img":"/static/img/seller2_goods5.jpg"
+          },
+          {
+            "name": "牛肉祸魁",
+            "monthSelling": 16,
+            "goodRating": "100%",
+            "price": 6,
+            "img":"/static/img/seller2_goods5.jpg"
+          }
+        ],
+        [
+          {
+            "name": "美味藕粉羹大杯",
+            "monthSelling": 20,
+            "goodRating": "70%",
+            "price": 4,
+            "img":"/static/img/seller2_goods6.jpg"
+          },
+          {
+            "name": "藕粉羹中杯",
+            "monthSelling": 15,
+            "goodRating": "100%",
+            "price": 3,
+            "img":"/static/img/seller2_goods6.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "classify": [
+        "热销榜",
+        "口味（必选）"
+      ],
+      "details": [
+        [
+          {
+            "name": "手工烤面筋",
+            "monthSelling": 1476,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods1.jpg"
+
+          },
+          {
+            "name": "烤饼",
+            "monthSelling": 11888,
+            "goodRating": "100%",
+            "price": 2,
+            "img":"/static/img/seller3_goods2.jpg"
+          },
+          {
+            "name": "烤土豆片",
+            "monthSelling": 926,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods3.jpg"
+          },
+          {
+            "name": "鱼豆腐",
+            "monthSelling": 913,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods4.jpg"
+          },
+          {
+            "name": "烤香肠",
+            "monthSelling": 676,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods5.jpg"
+          },
+          {
+            "name": "烤年糕",
+            "monthSelling": 594,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods6.jpg"
+          },
+          {
+            "name": "烤豆筋",
+            "monthSelling": 464,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods7.jpg"
+          },
+          {
+            "name": "烤豆腐皮",
+            "monthSelling": 349,
+            "goodRating": "80%",
+            "price": 1,
+            "img":"/static/img/seller3_goods8.jpg"
+          },
+          {
+            "name": "甜不辣",
+            "monthSelling": 286,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods9.jpg"
+          },
+          {
+            "name": "羊肉串",
+            "monthSelling": 248,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods10.jpg"
+          }
+        ],
+        [
+          {
+            "name": "手工烤面筋",
+            "monthSelling": 1476,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods1.jpg"
+
+          },
+          {
+            "name": "烤饼",
+            "monthSelling": 11888,
+            "goodRating": "100%",
+            "price": 2,
+            "img":"/static/img/seller3_goods2.jpg"
+          },
+          {
+            "name": "烤土豆片",
+            "monthSelling": 926,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods3.jpg"
+          },
+          {
+            "name": "鱼豆腐",
+            "monthSelling": 913,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods4.jpg"
+          },
+          {
+            "name": "烤香肠",
+            "monthSelling": 676,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods5.jpg"
+          },
+          {
+            "name": "烤年糕",
+            "monthSelling": 594,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods6.jpg"
+          },
+          {
+            "name": "烤豆筋",
+            "monthSelling": 464,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods7.jpg"
+          },
+          {
+            "name": "烤豆腐皮",
+            "monthSelling": 349,
+            "goodRating": "80%",
+            "price": 1,
+            "img":"/static/img/seller3_goods8.jpg"
+          },
+          {
+            "name": "甜不辣",
+            "monthSelling": 286,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods9.jpg"
+          },
+          {
+            "name": "羊肉串",
+            "monthSelling": 248,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods10.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "classify": [
+        "盖浇饭素菜",
+        "盖浇饭荤菜",
+        "主食"
+      ],
+      "details": [
+        [
+          {
+            "name": "素炒三丝盖浇饭",
+            "monthSelling": 9,
+            "goodRating": "100%",
+            "price": 8,
+            "img":"/static/img/seller4_goods1.jpg"
+
+          },
+          {
+            "name": "麻辣豆腐盖浇饭",
+            "monthSelling": 2,
+            "goodRating": "100%",
+            "price": 8,
+            "img":"/static/img/seller4_goods2.jpg"
+          },
+          {
+            "name": "酸辣土豆丝盖浇饭",
+            "monthSelling": 13,
+            "goodRating": "100%",
+            "price": 8,
+            "img":"/static/img/seller4_goods3.jpg"
+          }
+        ],
+        [
+          {
+            "name": "蒸剁椒鱼",
+            "monthSelling": 14,
+            "goodRating": "100%",
+            "price": 12,
+            "img":"/static/img/seller4_goods4.jpg"
+          },
+          {
+            "name": "宫保鸡丁盖浇饭",
+            "monthSelling": 14,
+            "goodRating": "100%",
+            "price": 10,
+            "img":"/static/img/seller4_goods5.jpg"
+          },
+          {
+            "name": "回锅肉盖浇饭",
+            "monthSelling": 14,
+            "goodRating": "100%",
+            "price": 10,
+            "img":"/static/img/seller4_goods6.jpg"
+          },
+          {
+            "name": "青椒肉丝盖浇饭",
+            "monthSelling": 5,
+            "goodRating": "100%",
+            "price": 10,
+            "img":"/static/img/seller4_goods7.jpg"
+          },
+          {
+            "name": "木耳炒肉盖浇饭",
+            "monthSelling": 2,
+            "goodRating": "100%",
+            "price": 10,
+            "img":"/static/img/seller4_goods8.jpg"
+          }
+        ],
+        [
+          {
+            "name": "饺子荤（半斤）",
+            "monthSelling": 5,
+            "goodRating": "100%",
+            "price": 10,
+            "img":"/static/img/seller4_goods9.jpg"
+          },
+          {
+            "name": "鸡蛋炒面",
+            "monthSelling": 2,
+            "goodRating": "100%",
+            "price": 8,
+            "img":"/static/img/seller4_goods10.jpg"
+          },
+          {
+            "name": "炒面",
+            "monthSelling": 2,
+            "goodRating": "80%",
+            "price": 8,
+            "img":"/static/img/seller4_goods11.jpg"
+          },
+          {
+            "name": "蛋炒饭",
+            "monthSelling": 7,
+            "goodRating": "100%",
+            "price": 8,
+            "img":"/static/img/seller4_goods12.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "classify": [
+        "热销榜",
+        "砂锅系列"
+      ],
+      "details": [
+        [
+          {
+            "name": "原味土豆粉",
+            "monthSelling": 38,
+            "goodRating": "100%",
+            "price": 9,
+            "img":"/static/img/seller5_goods1.jpg"
+          }
+        ],
+        [
+          {
+            "name": "酸辣土豆粉",
+            "monthSelling": 10,
+            "goodRating": "100%",
+            "price": 8,
+            "img":"/static/img/seller5_goods2.jpg"
+          },
+          {
+            "name": "麻辣土豆粉",
+            "monthSelling": 28,
+            "goodRating": "100%",
+            "price": 8,
+            "img":"/static/img/seller5_goods3.jpg"
+          },
+          {
+            "name": "番茄土豆粉",
+            "monthSelling": 37,
+            "goodRating": "100%",
+            "price": 8,
+            "img":"/static/img/seller5_goods2.jpg"
+          },
+          {
+            "name": "原味土豆粉",
+            "monthSelling": 4,
+            "goodRating": "100%",
+            "price": 8,
+            "img":"/static/img/seller5_goods1.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "classify": [
+        "热销榜",
+        "口味必选",
+        "烤肉系列"
+      ],
+      "details": [
+        [
+          {
+            "name": "手工烤面筋",
+            "monthSelling": 786,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods1.jpg"
+          }
+        ],
+        [
+          {
+            "name": "烤饼",
+            "monthSelling": 525,
+            "goodRating": "100%",
+            "price": 2,
+            "img":"/static/img/seller3_goods2.jpg"
+          },
+          {
+            "name": "土豆片",
+            "monthSelling": 421,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods3.jpg"
+          },
+          {
+            "name": "鱼豆腐",
+            "monthSelling": 358,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods4.jpg"
+          },
+          {
+            "name": "宁波年糕",
+            "monthSelling": 188,
+            "goodRating": "100%",
+            "price": 2,
+            "img":"/static/img/seller6_goods1.jpg"
+          },
+          {
+            "name": "蟹排",
+            "monthSelling": 346,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller6_goods2.jpg"
+          }
+        ],
+        [
+          {
+            "name": "鱼豆腐",
+            "monthSelling": 358,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods4.jpg"
+          },
+          {
+            "name": "宁波年糕",
+            "monthSelling": 188,
+            "goodRating": "100%",
+            "price": 2,
+            "img":"/static/img/seller6_goods1.jpg"
+          },
+          {
+            "name": "蟹排",
+            "monthSelling": 346,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller6_goods2.jpg"
+          }
+        ],
+        [
+          {
+            "name": "羊肉串五串（假一赔十）",
+            "monthSelling": 10,
+            "goodRating": "80%",
+            "price": 10,
+            "img":"/static/img/seller3_goods10.jpg"
+          },
+          {
+            "name": "牛板筋五串（假一赔十）",
+            "monthSelling": 1,
+            "goodRating": "100%",
+            "price": 10,
+            "img":"/static/img/seller6_goods3.jpg"
+          },
+          {
+            "name": "秘制五花烤肉五串（免费送生菜）",
+            "monthSelling": 12,
+            "goodRating": "100%",
+            "price": 10,
+            "img":"/static/img/seller6_goods4.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "classify": [
+        "热销榜",
+        "面包系列",
+        "甜品",
+        "饮品"
+      ],
+      "details": [
+        [
+          {
+            "id": 1,
+            "name": "丹麦红豆饼",
+            "monthSelling": 219,
+            "goodRating": "100%",
+            "price": 5,
+            "img":"/static/img/seller1_goods1.jpg"
+          }
+        ],
+        [
+          {
+            "id": 2,
+            "name": "香蕉排包",
+            "monthSelling": 14,
+            "goodRating": "100%",
+            "price": 3,
+            "img":"/static/img/seller1_goods2.jpg"
+          },
+          {
+            "id": 3,
+            "name": "豆沙包",
+            "monthSelling": 18,
+            "goodRating": "100%",
+            "price": 3,
+            "img":"/static/img/seller1_goods3.jpg"
+          },
+          {
+            "id": 4,
+            "name": "甜甜圈",
+            "monthSelling": 37,
+            "goodRating": "100%",
+            "price": 3,
+            "img":"/static/img/seller1_goods4.jpg"
+          },
+          {
+            "id": 5,
+            "name": "棉白吐司切片",
+            "monthSelling": 17,
+            "goodRating": "100%",
+            "price": 5,
+            "img":"/static/img/seller1_goods5.jpg"
+          },
+          {
+            "id": 6,
+            "name": "椰蓉吐司",
+            "monthSelling": 46,
+            "goodRating": "100%",
+            "price": 5,
+            "img":"/static/img/seller1_goods6.jpg"
+          }
+        ],
+        [
+          {
+            "id": 7,
+            "name": "丹麦红豆饼",
+            "monthSelling": 219,
+            "goodRating": "100%",
+            "price": 5,
+            "img":"/static/img/seller1_goods1.jpg"
+          },
+          {
+            "id": 8,
+            "name": "金丝枣糕",
+            "monthSelling": 36,
+            "goodRating": "100%",
+            "price": 10,
+            "img":"/static/img/seller1_goods7.jpg"
+          },
+          {
+            "id": 9,
+            "name": "奶油泡芙",
+            "monthSelling": 101,
+            "goodRating": "80%",
+            "price": 15,
+            "img":"/static/img/seller1_goods8.jpg"
+          }
+        ],
+        [
+          {
+            "id": 10,
+            "name": "绿茶",
+            "monthSelling": 2,
+            "goodRating": "80%",
+            "price": 2,
+            "img":"/static/img/seller1_goods9.jpg"
+          },
+          {
+            "id": 11,
+            "name": "菊花枸杞茶",
+            "monthSelling": 1,
+            "goodRating": "100%",
+            "price": 3,
+            "img":"/static/img/seller1_goods10.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "classify": [
+        "章鱼小丸子",
+        "御膳叉骨",
+        "军囤祸魁",
+        "太湖藕粉羹"
+      ],
+      "details": [
+        [
+          {
+            "name": "章鱼小丸子",
+            "monthSelling": 37,
+            "goodRating": "100%",
+            "price": 5,
+            "img":"/static/img/seller2_goods1.jpg"
+          }
+        ],
+        [
+          {
+            "name": "叉骨 大份",
+            "monthSelling": 13,
+            "goodRating": "100%",
+            "price": 10,
+            "img":"/static/img/seller2_goods2.jpg"
+          },
+          {
+            "name": "叉骨 小份",
+            "monthSelling": 8,
+            "goodRating": "100%",
+            "price": 5,
+            "img":"/static/img/seller2_goods2.jpg"
+          },
+          {
+            "name": "大鸡腿",
+            "monthSelling": 4,
+            "goodRating": "100%",
+            "price": 10,
+            "img":"/static/img/seller2_goods4.jpg"
+          },
+          {
+            "name": "大鸡腿，加一元送一份",
+            "monthSelling": 4,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller2_goods4.jpg"
+          },
+          {
+            "name": "御膳无骨鸡柳",
+            "monthSelling": 1,
+            "goodRating": "100%",
+            "price": 10,
+            "img":"/static/img/seller2_goods3.jpg"
+          }
+        ],
+        [
+          {
+            "name": "鲜肉祸魁",
+            "monthSelling": 14,
+            "goodRating": "100%",
+            "price": 4,
+            "img":"/static/img/seller2_goods5.jpg"
+          },
+          {
+            "name": "牛肉祸魁",
+            "monthSelling": 16,
+            "goodRating": "100%",
+            "price": 6,
+            "img":"/static/img/seller2_goods5.jpg"
+          }
+        ],
+        [
+          {
+            "name": "美味藕粉羹大杯",
+            "monthSelling": 20,
+            "goodRating": "70%",
+            "price": 4,
+            "img":"/static/img/seller2_goods6.jpg"
+          },
+          {
+            "name": "藕粉羹中杯",
+            "monthSelling": 15,
+            "goodRating": "100%",
+            "price": 3,
+            "img":"/static/img/seller2_goods6.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "classify": [
+        "热销榜",
+        "口味（必选）"
+      ],
+      "details": [
+        [
+          {
+            "name": "手工烤面筋",
+            "monthSelling": 1476,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods1.jpg"
+
+          },
+          {
+            "name": "烤饼",
+            "monthSelling": 11888,
+            "goodRating": "100%",
+            "price": 2,
+            "img":"/static/img/seller3_goods2.jpg"
+          },
+          {
+            "name": "烤土豆片",
+            "monthSelling": 926,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods3.jpg"
+          },
+          {
+            "name": "鱼豆腐",
+            "monthSelling": 913,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods4.jpg"
+          },
+          {
+            "name": "烤香肠",
+            "monthSelling": 676,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods5.jpg"
+          },
+          {
+            "name": "烤年糕",
+            "monthSelling": 594,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods6.jpg"
+          },
+          {
+            "name": "烤豆筋",
+            "monthSelling": 464,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods7.jpg"
+          },
+          {
+            "name": "烤豆腐皮",
+            "monthSelling": 349,
+            "goodRating": "80%",
+            "price": 1,
+            "img":"/static/img/seller3_goods8.jpg"
+          },
+          {
+            "name": "甜不辣",
+            "monthSelling": 286,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods9.jpg"
+          },
+          {
+            "name": "羊肉串",
+            "monthSelling": 248,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods10.jpg"
+          }
+        ],
+        [
+          {
+            "name": "手工烤面筋",
+            "monthSelling": 1476,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods1.jpg"
+
+          },
+          {
+            "name": "烤饼",
+            "monthSelling": 11888,
+            "goodRating": "100%",
+            "price": 2,
+            "img":"/static/img/seller3_goods2.jpg"
+          },
+          {
+            "name": "烤土豆片",
+            "monthSelling": 926,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods3.jpg"
+          },
+          {
+            "name": "鱼豆腐",
+            "monthSelling": 913,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods4.jpg"
+          },
+          {
+            "name": "烤香肠",
+            "monthSelling": 676,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods5.jpg"
+          },
+          {
+            "name": "烤年糕",
+            "monthSelling": 594,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods6.jpg"
+          },
+          {
+            "name": "烤豆筋",
+            "monthSelling": 464,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods7.jpg"
+          },
+          {
+            "name": "烤豆腐皮",
+            "monthSelling": 349,
+            "goodRating": "80%",
+            "price": 1,
+            "img":"/static/img/seller3_goods8.jpg"
+          },
+          {
+            "name": "甜不辣",
+            "monthSelling": 286,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods9.jpg"
+          },
+          {
+            "name": "羊肉串",
+            "monthSelling": 248,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods10.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "classify": [
+        "盖浇饭素菜",
+        "盖浇饭荤菜",
+        "主食"
+      ],
+      "details": [
+        [
+          {
+            "name": "素炒三丝盖浇饭",
+            "monthSelling": 9,
+            "goodRating": "100%",
+            "price": 8,
+            "img":"/static/img/seller4_goods1.jpg"
+
+          },
+          {
+            "name": "麻辣豆腐盖浇饭",
+            "monthSelling": 2,
+            "goodRating": "100%",
+            "price": 8,
+            "img":"/static/img/seller4_goods2.jpg"
+          },
+          {
+            "name": "酸辣土豆丝盖浇饭",
+            "monthSelling": 13,
+            "goodRating": "100%",
+            "price": 8,
+            "img":"/static/img/seller4_goods3.jpg"
+          }
+        ],
+        [
+          {
+            "name": "蒸剁椒鱼",
+            "monthSelling": 14,
+            "goodRating": "100%",
+            "price": 12,
+            "img":"/static/img/seller4_goods4.jpg"
+          },
+          {
+            "name": "宫保鸡丁盖浇饭",
+            "monthSelling": 14,
+            "goodRating": "100%",
+            "price": 10,
+            "img":"/static/img/seller4_goods5.jpg"
+          },
+          {
+            "name": "回锅肉盖浇饭",
+            "monthSelling": 14,
+            "goodRating": "100%",
+            "price": 10,
+            "img":"/static/img/seller4_goods6.jpg"
+          },
+          {
+            "name": "青椒肉丝盖浇饭",
+            "monthSelling": 5,
+            "goodRating": "100%",
+            "price": 10,
+            "img":"/static/img/seller4_goods7.jpg"
+          },
+          {
+            "name": "木耳炒肉盖浇饭",
+            "monthSelling": 2,
+            "goodRating": "100%",
+            "price": 10,
+            "img":"/static/img/seller4_goods8.jpg"
+          }
+        ],
+        [
+          {
+            "name": "饺子荤（半斤）",
+            "monthSelling": 5,
+            "goodRating": "100%",
+            "price": 10,
+            "img":"/static/img/seller4_goods9.jpg"
+          },
+          {
+            "name": "鸡蛋炒面",
+            "monthSelling": 2,
+            "goodRating": "100%",
+            "price": 8,
+            "img":"/static/img/seller4_goods10.jpg"
+          },
+          {
+            "name": "炒面",
+            "monthSelling": 2,
+            "goodRating": "80%",
+            "price": 8,
+            "img":"/static/img/seller4_goods11.jpg"
+          },
+          {
+            "name": "蛋炒饭",
+            "monthSelling": 7,
+            "goodRating": "100%",
+            "price": 8,
+            "img":"/static/img/seller4_goods12.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "classify": [
+        "热销榜",
+        "砂锅系列"
+      ],
+      "details": [
+        [
+          {
+            "name": "原味土豆粉",
+            "monthSelling": 38,
+            "goodRating": "100%",
+            "price": 9,
+            "img":"/static/img/seller5_goods1.jpg"
+          }
+        ],
+        [
+          {
+            "name": "酸辣土豆粉",
+            "monthSelling": 10,
+            "goodRating": "100%",
+            "price": 8,
+            "img":"/static/img/seller5_goods2.jpg"
+          },
+          {
+            "name": "麻辣土豆粉",
+            "monthSelling": 28,
+            "goodRating": "100%",
+            "price": 8,
+            "img":"/static/img/seller5_goods3.jpg"
+          },
+          {
+            "name": "番茄土豆粉",
+            "monthSelling": 37,
+            "goodRating": "100%",
+            "price": 8,
+            "img":"/static/img/seller5_goods2.jpg"
+          },
+          {
+            "name": "原味土豆粉",
+            "monthSelling": 4,
+            "goodRating": "100%",
+            "price": 8,
+            "img":"/static/img/seller5_goods1.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "classify": [
+        "热销榜",
+        "口味必选",
+        "烤肉系列"
+      ],
+      "details": [
+        [
+          {
+            "name": "手工烤面筋",
+            "monthSelling": 786,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods1.jpg"
+          }
+        ],
+        [
+          {
+            "name": "烤饼",
+            "monthSelling": 525,
+            "goodRating": "100%",
+            "price": 2,
+            "img":"/static/img/seller3_goods2.jpg"
+          },
+          {
+            "name": "土豆片",
+            "monthSelling": 421,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods3.jpg"
+          },
+          {
+            "name": "鱼豆腐",
+            "monthSelling": 358,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods4.jpg"
+          },
+          {
+            "name": "宁波年糕",
+            "monthSelling": 188,
+            "goodRating": "100%",
+            "price": 2,
+            "img":"/static/img/seller6_goods1.jpg"
+          },
+          {
+            "name": "蟹排",
+            "monthSelling": 346,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller6_goods2.jpg"
+          }
+        ],
+        [
+          {
+            "name": "鱼豆腐",
+            "monthSelling": 358,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods4.jpg"
+          },
+          {
+            "name": "宁波年糕",
+            "monthSelling": 188,
+            "goodRating": "100%",
+            "price": 2,
+            "img":"/static/img/seller6_goods1.jpg"
+          },
+          {
+            "name": "蟹排",
+            "monthSelling": 346,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller6_goods2.jpg"
+          }
+        ],
+        [
+          {
+            "name": "羊肉串五串（假一赔十）",
+            "monthSelling": 10,
+            "goodRating": "80%",
+            "price": 10,
+            "img":"/static/img/seller3_goods10.jpg"
+          },
+          {
+            "name": "牛板筋五串（假一赔十）",
+            "monthSelling": 1,
+            "goodRating": "100%",
+            "price": 10,
+            "img":"/static/img/seller6_goods3.jpg"
+          },
+          {
+            "name": "秘制五花烤肉五串（免费送生菜）",
+            "monthSelling": 12,
+            "goodRating": "100%",
+            "price": 10,
+            "img":"/static/img/seller6_goods4.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "classify": [
+        "热销榜",
+        "砂锅系列"
+      ],
+      "details": [
+        [
+          {
+            "name": "原味土豆粉",
+            "monthSelling": 38,
+            "goodRating": "100%",
+            "price": 9,
+            "img":"/static/img/seller5_goods1.jpg"
+          }
+        ],
+        [
+          {
+            "name": "酸辣土豆粉",
+            "monthSelling": 10,
+            "goodRating": "100%",
+            "price": 8,
+            "img":"/static/img/seller5_goods2.jpg"
+          },
+          {
+            "name": "麻辣土豆粉",
+            "monthSelling": 28,
+            "goodRating": "100%",
+            "price": 8,
+            "img":"/static/img/seller5_goods3.jpg"
+          },
+          {
+            "name": "番茄土豆粉",
+            "monthSelling": 37,
+            "goodRating": "100%",
+            "price": 8,
+            "img":"/static/img/seller5_goods2.jpg"
+          },
+          {
+            "name": "原味土豆粉",
+            "monthSelling": 4,
+            "goodRating": "100%",
+            "price": 8,
+            "img":"/static/img/seller5_goods1.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "classify": [
+        "热销榜",
+        "口味必选",
+        "烤肉系列"
+      ],
+      "details": [
+        [
+          {
+            "name": "手工烤面筋",
+            "monthSelling": 786,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods1.jpg"
+          }
+        ],
+        [
+          {
+            "name": "烤饼",
+            "monthSelling": 525,
+            "goodRating": "100%",
+            "price": 2,
+            "img":"/static/img/seller3_goods2.jpg"
+          },
+          {
+            "name": "土豆片",
+            "monthSelling": 421,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods3.jpg"
+          },
+          {
+            "name": "鱼豆腐",
+            "monthSelling": 358,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods4.jpg"
+          },
+          {
+            "name": "宁波年糕",
+            "monthSelling": 188,
+            "goodRating": "100%",
+            "price": 2,
+            "img":"/static/img/seller6_goods1.jpg"
+          },
+          {
+            "name": "蟹排",
+            "monthSelling": 346,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller6_goods2.jpg"
+          }
+        ],
+        [
+          {
+            "name": "鱼豆腐",
+            "monthSelling": 358,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller3_goods4.jpg"
+          },
+          {
+            "name": "宁波年糕",
+            "monthSelling": 188,
+            "goodRating": "100%",
+            "price": 2,
+            "img":"/static/img/seller6_goods1.jpg"
+          },
+          {
+            "name": "蟹排",
+            "monthSelling": 346,
+            "goodRating": "100%",
+            "price": 1,
+            "img":"/static/img/seller6_goods2.jpg"
+          }
+        ],
+        [
+          {
+            "name": "羊肉串五串（假一赔十）",
+            "monthSelling": 10,
+            "goodRating": "80%",
+            "price": 10,
+            "img":"/static/img/seller3_goods10.jpg"
+          },
+          {
+            "name": "牛板筋五串（假一赔十）",
+            "monthSelling": 1,
+            "goodRating": "100%",
+            "price": 10,
+            "img":"/static/img/seller6_goods3.jpg"
+          },
+          {
+            "name": "秘制五花烤肉五串（免费送生菜）",
+            "monthSelling": 12,
+            "goodRating": "100%",
+            "price": 10,
+            "img":"/static/img/seller6_goods4.jpg"
+          }
+        ]
+      ]
+    }
+  ]
+}

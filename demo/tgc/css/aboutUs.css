@@ -1,0 +1,51 @@
+.banner{
+	background: url(../img/aboutUs/banner.jpg);
+	background-size:100% 100%;
+	font-size:58px;
+	line-height:300px;
+}
+.banner p{
+	background: rgba(0,0,0,.3);
+}
+.aboutUs-mainbg{
+	background: #fff;
+	padding:40px 0;
+}
+.aboutUs-main{
+	margin:0 auto;
+	width:1200px;
+}
+.main-top{
+	height:590px;
+}
+.main-top-left{
+	width:700px;
+	height:100%;
+	background: url(../img/aboutUs/main.jpg);
+	background-size:100% 100%;
+}
+.main-top-right{
+	width:500px;
+	height:100%;
+	background: #06395e;
+	text-align: center;
+	position: relative;
+}
+.main-top-right >div {
+	height:164px;
+}
+.main-top-right h3{
+	font-size:32px;
+	margin-bottom: 20px;
+}
+.main-top-right p{
+	font-size:16px;
+	line-height:28px;
+}
+/* map */
+.iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+.iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+#map{
+	height:500px;
+	border:1px solid #ddd;
+}

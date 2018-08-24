@@ -1,0 +1,27 @@
+[
+{
+	"url":"banner1.jpg",
+	"url_s":"banner_s1.jpg",
+	"bgColor":"#FEF0D5"
+},
+{
+	"url":"banner2.jpg",
+	"url_s":"banner_s2.jpg",
+	"bgColor":"#FBE8E4"
+},
+{
+	"url":"banner3.jpg",
+	"url_s":"banner_s3.jpg",
+	"bgColor":"#E0F8E0"
+},
+{
+	"url":"banner4.jpg",
+	"url_s":"banner_s4.jpg",
+	"bgColor":"#FBE3F0"
+},
+{
+	"url":"banner5.jpg",
+	"url_s":"banner_s5.jpg",
+	"bgColor":"#F1EFF0"
+}
+]

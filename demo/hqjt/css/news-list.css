@@ -1,0 +1,38 @@
+.banner{
+    background: url(../img/hqfc/banner1.jpg) no-repeat center center;
+}
+.news-main{
+    width:1178px;
+    margin:20px auto;
+    background: #fff;
+}
+.news-main .tabs li{
+    float: left;
+    width:392px;
+    color: #333;
+    text-align: center;
+    line-height:60px;
+    border-right:2px solid #f7f8fa;
+    cursor: pointer;
+}
+.news-main .tabs li.active{
+    color: #fff;
+    background: #e89724;
+}
+.news-main h3{
+    font-size:22px;
+    line-height:80px;
+    text-align: center;
+    font-weight:normal;
+    color: #e89724;
+    border-width:2px 0 2px 0;
+    border-style:solid;
+    border-color: #f7f8fa;
+}
+.news-main .content{
+    padding:50px 340px;
+    text-indent:32px;
+}
+.news-main .content img{
+    margin-bottom:30px;
+}

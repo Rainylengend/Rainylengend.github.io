@@ -1,0 +1,56 @@
+#example{
+	padding:50px 0 16px 0;
+	width:1200px;
+	margin:0 auto;
+}
+.example-contain {
+	overflow: hidden;
+}
+.example-contain li{
+	width:285px;
+	height:328px;
+	margin:0 20px 34px 0;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	cursor: pointer;
+}
+.example-contain a{
+	display: block;
+	width:100%;
+	height:100%;
+	position: absolute;
+}
+.example-contain .mar-r0{
+	margin-right:0;
+}
+.example-contain div{
+	position: absolute;
+	top:280px;
+	z-index:100;
+}
+.example-contain .mock{
+	top:0;
+	width:100%;
+	height:100%;
+	position: absolute;
+	z-index:1;
+	background: rgba(0,0,0,.4);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
+	display: none;
+}
+.example-contain li h4{
+	background: #000;
+	color: #fff;
+	line-height:48px;
+	text-align: center;
+	font-size:18px;
+	font-weight:normal;
+}
+.example-contain li p{
+	color: #fff;
+	line-height:26px;
+	font-size:14px;
+	text-indent: 28px;
+	padding:0 10px;
+}

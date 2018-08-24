@@ -1,0 +1,187 @@
+html body{
+	background: #fff;
+}
+.head_width{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-top: 20px;
+}
+.head_logo{
+	float: left;
+}
+.head_logo img{
+	width: 260px;
+	height: 110px;
+}
+.head_r{
+	float: right;
+	margin-top: 35px;	
+}
+.register_width{
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-bottom: 150px;
+}
+.register_left{
+	float: left;
+	width: 508px;
+	margin-top: 30px;
+}
+.register_box{
+	float: right;
+	width: 290px;
+	border: 1px solid #ccc;
+	border-top: 2px solid #ea3918;
+	margin-right: 80px;
+	margin-top: 30px;
+	padding: 20px 40px;
+}
+.register_title{
+	font-size: 22px;
+	color: #444;
+	margin-bottom: 20px;
+}
+.register_title span{
+	float: right;
+	font-size: 12px;
+	display: inline-block;
+	line-height: 24px;
+}
+.register_title span a{
+	color: #999;
+}
+.register_infor ul{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.register_infor ul li{
+	width: 290px;
+	overflow: hidden;
+}
+.register_infor ul input{
+	width: 278px;
+	padding: 0 5px;
+	border: 1px solid #dedede;
+	color: #999999;
+	font-size: 14px;
+	height: 30px;
+	line-height: 30px;
+	outline: none;
+}
+.register_infor ul input.focus{
+	border-color: #FF6600;
+}
+.register_infor ul p{
+	line-height: 24px;
+	height: 24px;
+	color: #ff6b52;
+}
+#identify{
+	width: 100px;
+	padding-left: 8px;
+}
+.register_infor .change{
+	color: #999;
+}
+.register_infor .code{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "mv boli";
+	margin: 0 10px;
+	vertical-align: middle;
+}
+.code span{
+	float: left;
+	padding: 0 3px;
+}
+.clause a{
+	color: #999;
+}
+.clause input{
+	vertical-align: middle;
+}
+#reg_now{
+	width: 290px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 22px;
+	background: #e83917;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 3px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+#success{
+	width: 600px;
+	height: 260px;
+	border: 3px solid #ddd;
+	border-radius: 5px;
+	background: #FFFFFF;
+	position: absolute;
+	left: 50%;
+	top: 20%;
+	margin-left: -250px;
+	z-index: 100;
+	background: #fafafa;
+	padding: 20px 0;
+	display: none;
+}
+#success .congra{
+	height: 130px;
+	width: 500px;
+	margin: 0 auto;
+	border-bottom: 1px dashed #999;
+	line-height: 130px;
+	text-align: center;
+}
+#success .congra img{
+	padding-bottom: 10px;
+	margin-right: 30px;
+}
+#success .congra span{
+	font-size: 30px;
+	color: #FF2400;
+}
+#success .user_name{
+	text-align: center;
+	line-height: 50px;
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+.user_name span{
+	padding: 10px;
+	font-size: 18px;
+	color: #FF6600;
+	font-weight: bold;
+}
+#success a{
+	width: 150px;
+	height: 50px;
+	display: block;
+	margin: 0 auto;
+	background: #03A4FE;
+	color: #fff;
+	border: none;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 5px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

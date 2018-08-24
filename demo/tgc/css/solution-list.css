@@ -1,0 +1,51 @@
+.list-mainBg{
+	background: #f1f1f1;
+	overflow: hidden;
+}
+.list-main{
+	width:1100px;
+	height:700px;
+	background: #fff;
+	margin:20px auto;
+	padding:188px 135px 0;
+	color: #333;
+	text-align: center;
+	-webkit-transform: scaleY(0);
+	transform: scaleY(0);
+	-webkit-animation: scale .5s forwards;
+	animation: scale .5s forwards;
+}
+@-webkit-keyframes scale {
+	from{
+		-webkit-transform: scaleY(0);
+		transform: scaleY(0);
+	}
+	to{
+		-webkit-transform: scaleY(1);
+		transform: scaleY(1);
+	}
+}
+@keyframes scale {
+	from{
+		-webkit-transform: scaleY(0);
+		transform: scaleY(0);
+	}
+	to{
+		-webkit-transform: scaleY(1);
+		transform: scaleY(1);
+	}
+}
+.list-main dt{
+	width:250px;
+	height:250px;
+	margin:0 auto;
+}
+.list-main dd{
+	font-size:36px;
+	font-weight:bold;
+	margin:40px 0 28px;
+}
+.list-main p{
+	font-size:16px;
+	line-height:30px;
+}

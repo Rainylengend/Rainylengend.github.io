@@ -1,0 +1,87 @@
+.banner{
+	height:150px;
+	background: url(../img/joinUs/banner.jpg) center center;
+}
+.joinUs-view{
+	width:1200px;
+	margin:0 auto 50px;
+}
+.joinUs-view-title{
+	margin-bottom:50px;
+}
+.joinUs-view h2{
+	padding:30px 0 8px 0;
+	font-size: 30px;
+}
+.joinUs-view-title h3{
+	font-size:12px;
+	color: #999;
+}
+.talent-main h3{
+	font-size:22px;
+	color: #333;
+	margin-bottom:30px;
+}
+/* society employ */
+.search{
+	padding:20px 0;
+	border-bottom:1px dashed #999;
+	overflow: hidden;
+	height:70px;
+	line-height:30px;
+}
+.search div{
+	margin-right:10px;
+}
+#bumen,#diqu{
+	text-align: center;
+	width:100px;
+	height:30px;
+	line-height:30px;
+	border: 1px solid #999;
+}
+.search input{
+	text-indent:12px;
+}
+.search input,.search button{
+	height:30px;
+	border: 1px solid #999;
+	line-height:30px;
+}
+.search button{
+	background: #333;
+	color: #fff;
+	border:none;
+	margin-left:10px;
+	cursor: pointer;
+}
+.employInfo h3{
+	font-size:24px;
+	line-height:60px;
+}
+.employInfo table{
+	width:100%;
+	line-height:50px;
+	font-size:14px;
+}
+.employInfo  th{
+	text-align: left;
+	color: #333;
+}
+.employInfo td,.employInfo td a{
+	color: #666;
+}
+.employInfo .gray{
+	background: #F0F0F0;
+}
+.employ-step .step{
+	line-height:40px;
+}
+.employ-step .step dt{
+	font-weight:bold;
+	font-size:20px;
+}
+.employ-step .step dd{
+	color: #666;
+	font-size:16px;
+}

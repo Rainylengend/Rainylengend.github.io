@@ -1,0 +1,48 @@
+
+.banner,.about-title-main,.about-main{
+	width:1200px;
+	margin:0 auto;
+}
+/* banner */
+.banner-bg{
+	height:230px;
+	background: url(../img/about/banner.jpg) center center;
+}
+.banner-bg .right{
+	margin: 86px 58px 0 0;
+}
+.banner-bg p{
+	font-size:36px;
+	color: #fff;
+	margin-bottom:15px;
+}
+.banner-bg span{
+	font-size:20px;
+	color: #fff;
+}
+/* banner end */
+/* about */
+.about-main{
+	padding-top:40px;
+	margin-bottom:50px;
+}
+.about-main h3 {
+	text-indent:9px;
+	font-weight:normal;
+	margin-bottom: 10px;
+	font-size: 36px;
+	color: #333;
+}
+.about-main h4{
+	text-indent:9px;
+	margin:12px 0;
+	font-size:18px;
+	color: #333;
+}
+
+.about-main img {
+	margin:27px 0;
+}
+#qyry,#ywfb,#gswh{
+	display: none;
+}

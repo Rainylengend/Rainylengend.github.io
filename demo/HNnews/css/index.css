@@ -1,0 +1,320 @@
+@charset "UTF-8";
+html, body, input, button, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+:focus {
+  outline: 0;
+}
+
+ins {
+  text-decoration: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a img {
+  border: none;
+  text-decoration: none;
+}
+
+.clear:after {
+  content: "";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
+
+.borderNo {
+  border: none !important;
+}
+
+.margin0 {
+  margin: 0 !important;
+}
+
+.pull-left {
+  float: left !important;
+}
+
+.pull-right {
+  float: right !important;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.marBtw {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font: 16px/1.75 "微软雅黑";
+  color: #666;
+}
+
+.ms-controller {
+  visibility: hidden;
+}
+
+.header, .footer {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 80px;
+}
+
+.header h1 {
+  padding-top: 6px;
+}
+
+.header .nav > li {
+  float: left;
+  position: relative;
+}
+
+.header .nav > li > a.active, .header .nav > li li a:hover {
+  background: #007cc3 !important;
+  color: #fff !important;
+}
+
+.header .nav > li:hover ul {
+  display: block;
+}
+
+.header .nav > li:hover > a {
+  background: #f1f1f1;
+}
+
+.header .nav > li > a {
+  width: 100px;
+  line-height: 80px;
+  text-align: center;
+  color: #333;
+  display: block;
+}
+
+.header .nav > li ul {
+  width: 100%;
+  position: absolute;
+  z-index: 1000;
+  top: 80px;
+  left: 0;
+  display: none;
+}
+
+.header .nav > li li a {
+  width: 100%;
+  line-height: 40px;
+  text-align: center;
+  font-size: 14px;
+  background: #fff;
+  color: #ccc;
+  display: block;
+}
+
+.header .search {
+  width: 220px;
+  height: 40px;
+  line-height: 38px;
+  border: 1px solid #ccc;
+  float: right;
+  margin-top: 20px;
+}
+
+.header .search input {
+  font-size: 14px;
+  text-indent: 9px;
+  color: #ccc;
+}
+
+.header .search button {
+  width: 38px;
+  height: 38px;
+  background: url(../img/search-icon.png) no-repeat center center;
+  float: right;
+}
+
+.footer-bg {
+  background: #333;
+}
+
+.footer {
+  height: 120px;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 33px;
+}
+
+.footer p {
+  margin-bottom: 15px;
+}
+
+.main {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-bg {
+  background: #f1f1f1;
+}
+
+.main {
+  height: 886px;
+}
+
+.project {
+  padding: 40px 0 0;
+}
+
+.project li {
+  float: left;
+  width: 580px;
+  line-height: 200px;
+  margin: 0 40px 40px 0;
+  -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+}
+
+.project li.first {
+  background: url(../img/main1.png);
+}
+
+.project li.second {
+  background: url(../img/main2.png);
+}
+
+.project li.third {
+  background: url(../img/main3.png);
+}
+
+.project li.fourth {
+  background: url(../img/main4.png);
+}
+
+.project li a {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font-size: 32px;
+  text-align: center;
+  display: block;
+}
+
+.profile, .dynamic {
+  width: 580px;
+  height: 327px;
+  background: #fff;
+  -webkit-border-radius: 20px 0 0 0;
+  border-radius: 20px 0 0 0;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.profile h3, .dynamic h3 {
+  height: 62px;
+  line-height: 60px;
+  border-bottom: 2px solid #d1d1d1;
+  color: #007cc3;
+  font-size: 22px;
+  text-indent: 20px;
+}
+
+.profile h3 i, .dynamic h3 i {
+  width: 30px;
+  height: 30px;
+  background: url(../img/arrow-icon.png) no-repeat center center;
+  cursor: pointer;
+  margin: 15px 15px 0 0;
+  float: right;
+  display: block;
+}
+
+.profile .content, .dynamic .content {
+  font-size: 14px;
+}
+
+.profile .content {
+  line-height: 30px;
+  text-indent: 34px;
+  text-align: justify;
+  padding: 12px 20px 0 20px;
+}
+
+.dynamic li {
+  line-height: 52px;
+  border-bottom: 1px solid #f1f1f1;
+  padding: 0 20px;
+}
+
+.dynamic li a {
+  color: #666;
+}
+
+.dynamic li span {
+  float: right;
+  color: #ccc;
+}

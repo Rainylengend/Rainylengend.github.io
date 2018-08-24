@@ -1,0 +1,70 @@
+.RDCenter{
+	width:1200px;
+	margin:0 auto;
+}
+.banner{
+	background: url(../img/RDCenter/banner.jpg) center center;
+	height:474px;
+}
+.RDCenter ul{
+	width:570px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.RDTitle{
+	padding:30px;
+}
+.RDTitle li{
+	width:110px;
+	margin:0 40px;
+	float: left;
+	text-align: center;
+	line-height:26px;
+	cursor: pointer;
+}
+.RDTitle i{
+	display: inline-block;
+	width:109px;
+	height:109px;
+}
+.RDTitle h3{
+	font-size:24px;
+	font-weight:normal;
+
+}
+.RDTitle div{
+	margin:0 auto;
+	border:10px solid #000;
+	width:0;
+	border-bottom:10px solid transparent;
+	border-right:10px solid transparent;
+	border-left:10px solid transparent;
+	display: none;
+}
+.RDTitle .active{
+	display: block;
+}
+.RDTitle h4{
+	font-size: 14px;
+	color: #5A5A5A;
+	font-weight:normal;
+}
+.RDTitle .profile{
+	background: url(../img/RDCenter/icon-profile.png);
+}
+.RDTitle .construction{
+	background: url(../img/RDCenter/icon-construction.png);
+}
+.RDTitle .awards{
+	background: url(../img/RDCenter/icon-awards.png);
+}
+.RDCenter-view{
+	padding:20px 20px  0;
+	margin-bottom:50px;
+}
+.RDCenter-view .construction{
+	width:770px;
+	height:445px;
+	background: url(../img/RDCenter/constructor.jpg) center center;
+	margin:0 auto;
+}

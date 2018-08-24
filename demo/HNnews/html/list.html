@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<meta name="keywords" content=""/>
+	<meta name="description" content=""/>
+	<title>项目简介---现代学徒</title>
+	<link rel="shortcut icon" href="../img/favicon.ico">
+	<link rel="stylesheet" href="../css/list.css">
+</head>
+<body>
+<!-- header -->
+<div class="header clear">
+	<h1 class="logo pull-left"><a href="../index.html"><img src="../img/logo.png" alt="logo"></a></h1>
+	<div class="search" ms-controller="search">
+		<input type="text" ms-attr="{value:'搜索标题！'}" ms-focus="@focus" ms-keyup="@skipList | enter" ms-duplex="@parameter">
+		<button ms-click="@skipList"></button>
+	</div>
+	<ul class="nav pull-right" ms-controller="nav">
+		<li ms-click="@skip()"><a href="javascript:;" :class="@msClass[0]">政策支持</a></li>
+		<li>
+			<a href="javascript:;" :class="@msClass[1]">产业需求</a>
+			<ul>
+				<li><a href="javascript:;" ms-click="@skip('cyxq-rc')">人才</a></li>
+				<li><a href="javascript:;" ms-click="@skip('cyxq-js')">技术</a></li>
+			</ul>
+		</li>
+		<li><a href="javascript:;" ms-click="@skip('yxfw')" :class="@msClass[2]">院校服务</a></li>
+		<li><a href="javascript:;" ms-click="@skip('yjdt')" :class="@msClass[3]">研究动态</a></li>
+		<li><a href="javascript:;" ms-click="@skip('jrfw')" :class="@msClass[4]">金融服务</a></li>
+	</ul>
+</div>
+<!-- header end -->
+<!-- banner -->
+<div class="banner" ms-controller="banner" ms-css="{background:@bg,backgroundSize:'100% 100%','-webkit-background-size':'100% 100%'}">
+	<div class="content marBtw" ms-if="@render">
+		<h3 ms-html="@title">现代学徒制</h3>
+		<p>什么是现代学徒制？“现代学徒制是通过学校、企业的深度合作与教师、师傅的联合传授，对学生以技能培养为主的现代人才培养模式。”就是围绕1个标准签好2份合同，用好3块资金，解决4个问题，这4个问题都是企业和职业教育要解决的问题：企业招工难的问题；企业用工稳定的问题；劳动者收入的问题；劳动者自我价值实现的问题。</p>
+	</div>
+</div>
+<!-- banner end -->
+<!-- main -->
+<div class="main-bg">
+	<div class="main ms-controller" ms-controller="list">
+		<div class="list">
+			<h3>项目动态</h3>
+			<ul>
+				<li ms-for="item in @list"><a href="javascript:;" ms-click="@skipToDetails(item.id)">{{item.title}}<span>{{item.updateTime | date("yyyy-MM-dd")}}</span></a></li>
+			</ul>
+			<div class="paging">
+				<div class="btn clear">
+					<div id="prev">
+						<a href="javascript:;" ms-click="@loadPrev">上一页</a>
+					</div>
+					<div id="next" ms-click="@loadNext">
+						<a href="javascript:;">下一页</a>
+					</div>
+					<div id="pag">
+						<span ms-text="@currentPage"></span>/<span ms-text="@totalPages | Allpage">2</span>页
+					</div>
+					<div id="switch">
+						转到：<input type="text" ms-duplex-number="@willPage" ms-input="@banString" ms-keyup="@load | enter">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- main end -->
+<!-- footer -->
+<div class="footer-bg">
+	<div class="footer">
+		<p>校园查号台：0760-88291180&emsp;|&emsp;学校办公室电话：0760-88291180&emsp;|&emsp;招生咨询电话：0760-88291862&emsp;|&emsp;继续教育咨询电话：0760-88291163</p>
+		<p class="margin0">版权所有&copy;中山火炬职业技术学院&emsp;地址：广东省中山市火炬开发区中山港大道60号&emsp;邮编：528436&emsp;网站管理员信箱：admin@zstp.cn&emsp;粤ICP备10009013号</p>
+	</div>
+</div>
+<!-- footer end -->
+
+<script type="text/javascript" src="../js/avalon.js"></script>
+<script type="text/javascript" src="../js/ajax.js"></script>
+<script type="text/javascript" src="../js/search.js"></script>
+<script type="text/javascript" src="../js/list.js"></script>
+</body>
+</html>

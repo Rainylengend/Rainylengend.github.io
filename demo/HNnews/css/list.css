@@ -1,0 +1,319 @@
+@charset "UTF-8";
+html, body, input, button, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+:focus {
+  outline: 0;
+}
+
+ins {
+  text-decoration: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a img {
+  border: none;
+  text-decoration: none;
+}
+
+.clear:after {
+  content: "";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
+
+.borderNo {
+  border: none !important;
+}
+
+.margin0 {
+  margin: 0 !important;
+}
+
+.pull-left {
+  float: left !important;
+}
+
+.pull-right {
+  float: right !important;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.marBtw {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font: 16px/1.75 "微软雅黑";
+  color: #666;
+}
+
+.ms-controller {
+  visibility: hidden;
+}
+
+.header, .footer {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 80px;
+}
+
+.header h1 {
+  padding-top: 6px;
+}
+
+.header .nav > li {
+  float: left;
+  position: relative;
+}
+
+.header .nav > li > a.active, .header .nav > li li a:hover {
+  background: #007cc3 !important;
+  color: #fff !important;
+}
+
+.header .nav > li:hover ul {
+  display: block;
+}
+
+.header .nav > li:hover > a {
+  background: #f1f1f1;
+}
+
+.header .nav > li > a {
+  width: 100px;
+  line-height: 80px;
+  text-align: center;
+  color: #333;
+  display: block;
+}
+
+.header .nav > li ul {
+  width: 100%;
+  position: absolute;
+  z-index: 1000;
+  top: 80px;
+  left: 0;
+  display: none;
+}
+
+.header .nav > li li a {
+  width: 100%;
+  line-height: 40px;
+  text-align: center;
+  font-size: 14px;
+  background: #fff;
+  color: #ccc;
+  display: block;
+}
+
+.header .search {
+  width: 220px;
+  height: 40px;
+  line-height: 38px;
+  border: 1px solid #ccc;
+  float: right;
+  margin-top: 20px;
+}
+
+.header .search input {
+  font-size: 14px;
+  text-indent: 9px;
+  color: #ccc;
+}
+
+.header .search button {
+  width: 38px;
+  height: 38px;
+  background: url(../img/search-icon.png) no-repeat center center;
+  float: right;
+}
+
+.footer-bg {
+  background: #333;
+}
+
+.footer {
+  height: 120px;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 33px;
+}
+
+.footer p {
+  margin-bottom: 15px;
+}
+
+.main {
+  width: 1200px;
+  margin: auto;
+}
+
+.banner {
+  height: 600px;
+  background: url(../img/list/banner1.png) center center;
+  position: relative;
+}
+
+.banner .content {
+  width: 710px;
+  height: 300px;
+  font-size: 22px;
+  color: #fff;
+  text-align: center;
+}
+
+.banner h3 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.main-bg {
+  background: #f1f1f1;
+}
+
+.main {
+  padding: 40px 0;
+}
+
+.main .list {
+  background: #fff;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.main h3 {
+  line-height: 80px;
+  text-indent: 40px;
+  color: #007cc3;
+  font-size: 22px;
+  border-bottom: 2px solid #dbdbdb;
+}
+
+.main li {
+  line-height: 60px;
+  border-bottom: 1px solid #dbdbdb;
+  padding: 0 40px;
+}
+
+.main li a {
+  color: #666;
+}
+
+.main li a span {
+  float: right;
+  color: #ccc;
+}
+
+.main .paging {
+  height: 80px;
+}
+
+.main .paging .btn {
+  width: 450px;
+  margin: auto;
+}
+
+.main .paging .btn > div {
+  float: left;
+  margin-right: 40px;
+}
+
+#prev, #next {
+  margin-top: 20px;
+}
+
+#prev a, #next a {
+  width: 80px;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  background: #007cc3;
+  display: block;
+}
+
+#pag {
+  line-height: 80px;
+}
+
+#switch {
+  margin: 20px 0 0 0;
+}
+
+#switch input {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #f1f1f1;
+}
