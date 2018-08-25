@@ -1,6 +1,6 @@
 # 个人简历
 
-[!LOGO](https://rainylengend.github.io/asset/img/icon.ico)
+![LOGO](https://rainylengend.github.io/asset/img/icon.ico)
 > 相关动态
 
 ### 行业相关技能
