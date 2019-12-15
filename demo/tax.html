@@ -2,7 +2,7 @@
 <html lang="zh">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,user-scalable=false">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
     <title>Title</title>
     <style>
         *{
@@ -52,17 +52,17 @@
     </div>
     <div class="input-area">
         <label for="total">贷款额度：</label>
-        <input v-model.number="total" type="number" id="total"  placeholder="请输入贷款额度">
+        <input v-model.number="total" type="number" id="total"  placeholder="请输入贷款额度">（万元）
     </div>
 
     <div class="input-area">
         <label for="month">贷款总月数：</label>
-        <input v-model.number="time" type="number" id="month"  placeholder="请输入贷款额度">
+        <input v-model.number="time" type="number" id="month"  placeholder="请输入贷款总月数">
     </div>
 
     <div class="input-area">
         <label for="monthed">还款总月数：</label>
-        <input v-model.number="timed" type="number" id="monthed"  placeholder="请输入贷款额度">
+        <input v-model.number="timed" type="number" id="monthed"  placeholder="请输入还款总月数">
     </div>
 
     <div class="btn-container">
