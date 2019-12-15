@@ -72,6 +72,11 @@
         <input v-model.number="timed" type="number" id="monthed"  placeholder="请输入还款总月数">
     </div>
 
+    <div class="input-area">
+        <label for="distance">期望差：</label>
+        <input v-model.number="distance" type="number" id="distance"  placeholder="请输入两种方式的期望差">（万元）
+    </div>
+
     <div class="btn-container">
         <a href="javascript:" @click="equalTax">等额本息</a>
         <a href="javascript:" @click="equalMoney">等额本金</a>
@@ -133,7 +138,8 @@
             yearRatio: .049,
             total: 50,
             time: 360,
-            timed: 360
+            timed: 360,
+            distance: 0
         },
         computed: {
           ratio() {
@@ -168,7 +174,7 @@
                 alert(str)
             },
             better() {
-                let {total, time, ratio} = this
+                let {total, time, ratio, distance} = this
                 let timed = 0
                 while(timed <= time) {
                     timed++
@@ -176,7 +182,7 @@
                     let tax = getRemain2(ratio, total, time, timed)
                     let moneyAll = +money[0] + +money[1]
                     let taxAll = +tax[0] + +tax[1]
-                    if (taxAll > moneyAll) {
+                    if (taxAll - distance > moneyAll) {
                         let money = getRemain1(ratio, total, time, timed - 1)
                         let tax = getRemain2(ratio, total, time, timed - 1)
                         alert(`等额本息最优解为还款${timed - 1}月，已还等额本息${tax[0]}万，还剩${tax[1]}万没还，总消费为${+tax[0] + +tax[1]}；已还等额本金${money[0]}万，还剩${money[1]}万没还, 总消费为${+money[0] +    +money[1]}万`)
