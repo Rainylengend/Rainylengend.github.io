@@ -97,13 +97,13 @@
         function demo (remainMoney, remainTime){
             if(time - remainTime < endTime) {
                 remainTime -= 1
-                endMoney = remainMoney -moneyMonth
+                endMoney = remainMoney - moneyMonth
                 demo(moneyMonth * remainTime, remainTime)
                 sum += moneyMonth + remainMoney * ratio
             }
         }
         demo(total, time)
-        return [sum.toFixed(4), endMoney.toFixed(4)]
+        return [sum.toFixed(4), endMoney.toFixed(4), (moneyMonth + total * ratio).toFixed(4), (moneyMonth * ratio).toFixed(4)]
     }
 
     function getRemain2(ratio, total = 100, time = 360, endTime = 1) {
@@ -117,16 +117,16 @@
             endTime -= 1
             _total -= endMoney
         }
-        return [sum.toFixed(4), _total.toFixed(4)]
+        return [sum.toFixed(4), _total.toFixed(4), everyMonth.toFixed(4)]
     }
 
     new Vue({
         el: '#app',
         data: {
-            yearRatio: .059,
+            yearRatio: .049,
             total: 50,
-            time: 240,
-            timed: 240
+            time: 360,
+            timed: 360
         },
         computed: {
           ratio() {
@@ -149,11 +149,16 @@
                 const result = getRemain1(ratio, total, time, timed)
                 this.print(result)
             },
-            print([pay, remain]) {
-                let str = `当前已还${pay}万元,剩余${remain}万元没还；此时还款总消费为${+pay + +remain}万`
-                alert(
-                    JSON.stringify(str, null, 2)
-                )
+            print([pay, remain, everyMonth, reduce]) {
+                let str = ''
+                if (!reduce) {
+                    str += '等额本息：平均每月还款' + everyMonth +  '万；'
+                } else {
+                    str += `等额本金：第一月还款${everyMonth}万，此后每过一个月少还${reduce}万`
+                }
+                str += `当前已还${pay}万元,剩余${remain}万元没还；此时还款总消费为${+pay + +remain}万`
+
+                alert(str)
             },
             better() {
                 let {total, time, ratio} = this
