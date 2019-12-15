@@ -2,7 +2,7 @@
 <html lang="zh">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <meta name="viewport" content="width=device-width,user-scalable=false">
     <title>Title</title>
     <style>
         *{
@@ -167,7 +167,7 @@
                     if (taxAll > moneyAll) {
                         let money = getRemain1(ratio, total, time, timed - 1)
                         let tax = getRemain2(ratio, total, time, timed - 1)
-                        alert(`等额本息最优解给还款${timed - 1}月，已还等额本息已还${tax[0]}万，还剩${tax[1]}万没还，总消费为${+tax[0] + +tax[1]}；已还等额本金已还${money[0]}万，还剩${money[1]}万没还, 总消费为${+money[0] +    +money[1]}`)
+                        alert(`等额本息最优解为还款${timed - 1}月，已还等额本息${tax[0]}万，还剩${tax[1]}万没还，总消费为${+tax[0] + +tax[1]}；已还等额本金${money[0]}万，还剩${money[1]}万没还, 总消费为${+money[0] +    +money[1]}万`)
                         break
                     }
                 }
