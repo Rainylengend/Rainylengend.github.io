@@ -1,128 +1,179 @@
 <!DOCTYPE html>
 <html lang="zh">
 <head>
-	<meta charset="UTF-8">
-	<meta name="renderer" content="webkit">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<link rel="shortcut icon" href="">
-	<meta name="keywords" content="">
-	<meta name="description" content="">
-	<title>Title</title>
-	<style>
-		* {
-			margin: 0;
-		}
-
-		.logBox {
-			width: 500px;
-			margin: 20px auto;
-			border: 1px solid #369;
-			padding: 10px;
-			box-shadow: 0 0 10px #366;
-			-webkit-border-radius: 10px;
-			-moz-border-radius: 10px;
-			border-radius: 10px;
-		}
-
-		.logBox input {
-			width: 500px;
-			display: block;
-			border: 1px solid #aaa;
-			outline: none;
-			margin-bottom: 10px;
-			height: 50px;
-			line-height: 50px;
-			text-indent: 1em;
-			font-size: 16px;
-		}
-
-		.logBox button {
-			display: inline-block;
-			background: #3DA700;
-			border: none;
-			width: 100px;
-			height: 40px;
-			line-height: 40px;
-			color: #fff;
-			margin: auto;
-			border-radius: 10px;
-			outline: none;
-			cursor: pointer;
-		}
-
-		.logBox button:hover {
-			background: #6aA700;
-		}
-		.operation{
-			width:215px;
-			margin:auto;
-		}
-	</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=false">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-size: 14px;
+            background: #f1f1f1;
+        }
+        .input-area {
+            padding: 10px 0;
+            border-bottom: 1px solid teal;
+        }
+        label {
+            width: 90px;
+            display: inline-block;
+            text-align: right;
+        }
+        input {
+            height: 30px;
+            line-height: 30px;
+            text-indent: .5em;
+        }
+        a {
+            text-decoration: none;
+            color: #fff;
+            display: inline-block;
+            padding: 5px 10px;
+            background: teal;
+            margin-top: 10px;
+            border-radius: 6px;
+        }
+        a + a {
+            margin-left: 10px;
+        }
+        .btn-container {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-<div class="logBox">
-	<input type="text" placeholder="请输入账号" id="userName">
-	<input type="password" placeholder="请输入密码" id="password">
-	<div class="operation">
-		<button id="login">登录</button>
-		<button id="register">注册</button>
-	</div>
+<div id="app">
+    <div class="input-area">
+        <label for="year_ratio">年利率：</label>
+        <input v-model.number="yearRatio" type="number" id="year_ratio"placeholder="请输入年利率">
+    </div>
+    <div class="input-area">
+        <label for="total">贷款额度：</label>
+        <input v-model.number="total" type="number" id="total"  placeholder="请输入贷款额度">（万元）
+    </div>
+
+    <div class="input-area">
+        <label for="month">贷款总月数：</label>
+        <input v-model.number="time" type="number" id="month"  placeholder="请输入贷款总月数">
+    </div>
+
+    <div class="input-area">
+        <label for="monthed">还款总月数：</label>
+        <input v-model.number="timed" type="number" id="monthed"  placeholder="请输入还款总月数">
+    </div>
+
+    <div class="btn-container">
+        <a href="javascript:" @click="equalTax">等额本息</a>
+        <a href="javascript:" @click="equalMoney">等额本金</a>
+        <a href="javascript:" @click="better">最优解</a>
+    </div>
 </div>
-<script src="../cdn/js/jquery.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script>
-	function login() {
-		var userName = $('#userName').val(),
-			password = $('#password').val()
+    // 等额本金
 
-		if (userName && password) {
-			$.ajax({
-				url: '/login',
-				type: 'post',
-				data: {userName: userName, password: password}
-			}).then(function (data) {
-				if(data.result === 200){
-					window.location.href = '/testvideo'
-				}else{
-					alert(data.obj)
-				}
 
-			})
-		} else {
-			alert('账号密码不能为空')
-		}
-	}
-	$('#login').click(function () {
-		login()
-	})
+    // 每月还款额=每月还款本金+每月还款利息。
 
-	$('#register').click(function () {
-		var userName = $('#userName').val(),
-			password = $('#password').val()
+    // 每月还款本金=贷款总额/贷款月数 。
+    // 每月还款利息=贷款本金余额*贷款月利率（ 贷款月利率=年利率/12）
 
-		if (userName && password) {
-			$.ajax({
-				url: '/register',
-				type: 'post',
-				data: {userName: userName, password: password}
-			}).then(function (data) {
-				if(data.result === 200){
-					alert(data.obj)
-					window.location.href = '/testvideo'
-				}else{
-					alert(data.obj)
-				}
+    // 贷款本金余额=贷款总额-已还款月数*每月还款本金。
 
-			})
-		} else {
-			alert('注册账号密码不能为空')
-		}
-	})
 
-	$('#password').keydown(function (e) {
-		if(e.keyCode === 13){
-			login()
-		}
-	})
+    // 等额本息
+
+    //每月应还款额＝借款本金×月利率×（1＋月利率）^还款月数/[（1＋月利率）^还款月数－1]。
+    const ratio = .059 / 12
+
+    function getRemain1(ratio, total = 50, time = 240, endTime = 240) {
+        let moneyMonth = total / time
+        let endMoney = 0
+        let sum = 0
+
+        function demo (remainMoney, remainTime){
+            if(time - remainTime < endTime) {
+                remainTime -= 1
+                endMoney = remainMoney -moneyMonth
+                demo(moneyMonth * remainTime, remainTime)
+                sum += moneyMonth + remainMoney * ratio
+            }
+        }
+        demo(total, time)
+        return [sum.toFixed(4), endMoney.toFixed(4)]
+    }
+
+    function getRemain2(ratio, total = 100, time = 360, endTime = 1) {
+        let sum = 0
+        let _total = total
+        let everyMonth = total * ratio * ( (1 +ratio) ** time ) / ((1 + ratio) ** (time) - 1)
+        while (endTime > 0) {
+            let tax = _total * ratio
+            let endMoney = everyMonth - tax
+            sum += everyMonth
+            endTime -= 1
+            _total -= endMoney
+        }
+        return [sum.toFixed(4), _total.toFixed(4)]
+    }
+
+    new Vue({
+        el: '#app',
+        data: {
+            yearRatio: .059,
+            total: 50,
+            time: 240,
+            timed: 240
+        },
+        computed: {
+          ratio() {
+              return this.yearRatio / 12
+            }
+        },
+        watch: {
+          time() {
+              this.timed = this.time
+          }
+        },
+        methods: {
+            equalTax() {
+                const {total, time, timed, ratio} = this
+                const result = getRemain2(ratio, total, time, timed)
+                this.print(result)
+            },
+            equalMoney() {
+                const {total, time, timed, ratio} = this
+                const result = getRemain1(ratio, total, time, timed)
+                this.print(result)
+            },
+            print([pay, remain]) {
+                let str = `当前已还${pay}万元,剩余${remain}万元没还；此时还款总消费为${+pay + +remain}万`
+                alert(
+                    JSON.stringify(str, null, 2)
+                )
+            },
+            better() {
+                let {total, time, ratio} = this
+                let timed = 0
+                while(timed <= time) {
+                    timed++
+                    let money = getRemain1(ratio, total, time, timed)
+                    let tax = getRemain2(ratio, total, time, timed)
+                    let moneyAll = +money[0] + +money[1]
+                    let taxAll = +tax[0] + +tax[1]
+                    if (taxAll > moneyAll) {
+                        let money = getRemain1(ratio, total, time, timed - 1)
+                        let tax = getRemain2(ratio, total, time, timed - 1)
+                        alert(`等额本息最优解给还款${timed - 1}月，已还等额本息已还${tax[0]}万，还剩${tax[1]}万没还，总消费为${+tax[0] + +tax[1]}；已还等额本金已还${money[0]}万，还剩${money[1]}万没还, 总消费为${+money[0] +    +money[1]}`)
+                        break
+                    }
+                }
+            }
+        }
+    })
 </script>
 </body>
 </html>
