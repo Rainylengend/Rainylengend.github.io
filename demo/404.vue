@@ -59,16 +59,16 @@ export default {
     }
     .container-404 {
         margin: 0;
-        min-height: 100vh;
+        max-height: 100vh;
         height: 100%;
         overflow: hidden;
-        font-family: "Libre Franklin", sans-serif;
         font-size: 62.5%;
         background-image: linear-gradient(0deg, #e8f4f8, lightblue);
     }
 
     .error {
         position: absolute;
+        z-index: 1000;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
