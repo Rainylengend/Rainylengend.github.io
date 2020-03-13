@@ -1,1 +1,0 @@
-var username=localStorage.user,arrImg=["../img/decil.jpg"];username?($(".user").html(username),$(".pho img").attr("src",arrImg[0])):$(".user").html("请登录"),console.log(touch),touch.on(".cancel","tap",function(){localStorage.user="",$(".pho img").attr("src","../img/toux.jpg"),$(".user").html("请登录")});

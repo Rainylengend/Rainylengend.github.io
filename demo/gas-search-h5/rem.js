@@ -14,4 +14,3 @@
     rem()
     window.addEventListener('resize', rem)
 }())
-
